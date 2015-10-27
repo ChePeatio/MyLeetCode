@@ -1,3 +1,5 @@
+package test.com.chepeatio.partitionList;
+
 import com.chepeatio.partitionList.ListNode;
 import com.chepeatio.partitionList.PartitionList;
 import com.chepeatio.partitionList.UtilFunctions;
@@ -15,7 +17,7 @@ import static org.junit.Assert.assertEquals;
  * Created by CheKedar on 2015/10/19.
  */
 @RunWith(Parameterized.class)
-public class PartitionTest {
+public class PartitionListTest {
 
     PartitionList part = new PartitionList();
     int[] param;
@@ -31,7 +33,7 @@ public class PartitionTest {
     }
 
     // 构造函数，对变量进行初始化
-    public PartitionTest(int[] param, int flag, String result) {
+    public PartitionListTest(int[] param, int flag, String result) {
         this.param = param;
         this.flag = flag;
         this.result = result;

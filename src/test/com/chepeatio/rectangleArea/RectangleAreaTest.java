@@ -1,3 +1,5 @@
+package test.com.chepeatio.rectangleArea;
+
 import com.chepeatio.rectangleArea.RectangleArea;
 
 import org.junit.Test;

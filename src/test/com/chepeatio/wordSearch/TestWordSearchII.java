@@ -1,3 +1,5 @@
+package test.com.chepeatio.wordSearch;
+
 import com.chepeatio.wordSearch.ReferAnswer;
 import com.chepeatio.wordSearch.WordSearchII;
 

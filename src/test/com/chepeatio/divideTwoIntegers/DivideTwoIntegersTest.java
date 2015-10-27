@@ -1,3 +1,5 @@
+package test.com.chepeatio.divideTwoIntegers;
+
 import com.chepeatio.divideTwoIntegers.DivideTwoIntegers;
 import org.junit.Ignore;
 import org.junit.Test;

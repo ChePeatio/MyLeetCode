@@ -1,3 +1,5 @@
+package test.com.chepeatio.bestTimetoBuyandSellStock;
+
 import com.chepeatio.bestTimetoBuyandSellStock.BestTimetoBuyandSellStock;
 
 import org.junit.Test;

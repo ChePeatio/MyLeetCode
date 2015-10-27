@@ -1,3 +1,5 @@
+package test.com.chepeatio.implementTrie;
+
 import com.chepeatio.implementTrie.Trie;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,7 +14,7 @@ import static org.junit.Assert.assertEquals;
  * Created by Che Peatio on 2015/10/26.
  */
 @RunWith(Parameterized.class)
-public class ImplementTrieTest {
+public class ImplementTrieTest2 {
 
     Trie test = new Trie();
     String[] words;
@@ -24,20 +26,20 @@ public class ImplementTrieTest {
         return Arrays.asList(new Object[][]{
                 {new String[]{"something", "goodjob", "good"}, "good", true},
                 {new String[]{}, "good", false},
-                {new String[]{"something", "good"}, "goo", false}
+                {new String[]{"something", "good"}, "goo", true}
         });
     }
 
-    public ImplementTrieTest(String[] strArray, String w, boolean result) {
+    public ImplementTrieTest2(String[] strArray, String w, boolean result) {
         this.words = strArray;
         this.word = w;
         this.result = result;
     }
 
     @Test
-    public void TestTrieSearch() {
-        for(String s : words)
+    public void TestTrie() {
+        for (String s : words)
             test.insert(s);
-        assertEquals(result, test.search(word));
+        assertEquals(result, test.startsWith(word));
     }
 }

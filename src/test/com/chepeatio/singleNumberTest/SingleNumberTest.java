@@ -1,3 +1,5 @@
+package test.com.chepeatio.singleNumberTest;
+
 import com.chepeatio.singleNumber.SingleNumber;
 import org.junit.Test;
 import org.junit.runner.RunWith;

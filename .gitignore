@@ -1,2 +1,4 @@
 # ignore the 'out' directory
 /out/
+*.iml
+/.idea/

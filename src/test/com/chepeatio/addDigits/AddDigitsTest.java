@@ -1,3 +1,5 @@
+package test.com.chepeatio.addDigits;
+
 import com.chepeatio.addDigits.AddDigits;
 import org.junit.Test;
 import org.junit.runner.RunWith;

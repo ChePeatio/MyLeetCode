@@ -7,9 +7,9 @@ import java.util.List;
  * Created by Che Peatio on 2015/10/25.
  */
 public class UndirectedGraphNode {
-    int label;
-    List<UndirectedGraphNode> neighbors;
-    UndirectedGraphNode(int x) {
+    public int label;
+    public List<UndirectedGraphNode> neighbors;
+    public UndirectedGraphNode(int x) {
         label = x;
         neighbors = new ArrayList<UndirectedGraphNode>();
     }
