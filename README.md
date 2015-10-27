@@ -1,3 +1,5 @@
 # MyLeetCode
 ----
-My solution codes and best solution codes for LeetCode.
+鄙人最近在做LeetCode题目，src中是自己写的解法源码和更好的解法源码，及简单的测试代码。
+
+其中测试使用的JUnit测试框架，其中访问数据类中私有数据的方式比较粗暴，目前正在了解Java反射机制，再做更好的处理。
