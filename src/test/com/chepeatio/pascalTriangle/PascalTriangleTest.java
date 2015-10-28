@@ -45,11 +45,10 @@ public class PascalTriangleTest {
     */
     @Test
     public void testGenerate() throws Exception {
-        //TODO: Test goes here...
         ArrayList<Integer> al = new ArrayList<>();
         List<List<Integer>> lli = test.generate(param);
-        for (int i=0; i<lli.size(); i++) {
-            al.addAll(lli.get(i));
+        for (List<Integer> li : lli) {
+            al.addAll(li);
         }
         int[] ala = new int[al.size()];
         for (int i=0; i<ala.length; i++) {
