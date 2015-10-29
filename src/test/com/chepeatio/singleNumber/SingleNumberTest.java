@@ -1,4 +1,4 @@
-package test.com.chepeatio.singleNumberTest;
+package test.com.chepeatio.singleNumber;
 
 import com.chepeatio.singleNumber.SingleNumber;
 import org.junit.Test;
