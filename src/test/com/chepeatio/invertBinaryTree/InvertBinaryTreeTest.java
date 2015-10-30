@@ -40,7 +40,6 @@ public class InvertBinaryTreeTest {
     */
     @Test
     public void testInvertTree() throws Exception {
-        //TODO: Test goes here...
         ArrayList<Integer> originalOrder = new ArrayList<>();
         ArrayList<Integer> resultOrder = new ArrayList<>();
         preorderTree(r, originalOrder);

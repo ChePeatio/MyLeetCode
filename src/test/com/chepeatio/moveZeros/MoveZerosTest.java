@@ -47,7 +47,6 @@ public class MoveZerosTest {
     */
     @Test
     public void testMoveZeroes() throws Exception {
-        //TODO: Test goes here...
         test.moveZeroes(param);
         assertArrayEquals(res, param);
     }
@@ -60,7 +59,6 @@ public class MoveZerosTest {
     @Ignore
     @Test
     public void testMoveZeroesBS() throws Exception {
-        //TODO: Test goes here...
         test.moveZeroesBS(param);
         assertArrayEquals(res, param);
     }
