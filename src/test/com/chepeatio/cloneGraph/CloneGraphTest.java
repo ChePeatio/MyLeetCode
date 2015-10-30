@@ -35,15 +35,15 @@ public class CloneGraphTest {
     */
     @Test
     public void testCloneGraph() throws Exception {
-        //TODO: Test goes here...
         UndirectedGraphNode result = test.cloneGraph(node0);
         assertEquals(true, equalsGraph(result, node0));
     }
 
     private boolean equalsGraph(UndirectedGraphNode n1, UndirectedGraphNode n2) {
-        boolean eq = true;
-        eq = eq && (n1.label == n2.label);
+//        boolean eq = true;
+//        eq = eq && (n1.label == n2.label);
         // Lack the solution to judge whether two graphs equals.
-        return eq;
+//        return eq;
+        return n1.label == n2.label;
     }
 }
