@@ -35,7 +35,6 @@ public class MaximumDepthOfBinaryTreeTest {
     */
     @Test
     public void testMaxDepth() throws Exception {
-        //TODO: Test goes here...
         assertEquals(4, test.maxDepth(root));
     }
 }

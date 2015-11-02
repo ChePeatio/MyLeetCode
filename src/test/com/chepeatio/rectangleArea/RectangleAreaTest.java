@@ -44,7 +44,6 @@ public class RectangleAreaTest {
     */
     @Test
     public void testComputeAreaBS() throws Exception {
-        //TODO: Test goes here...
         assertEquals(result, test.computeAreaBS(param[0], param[1], param[2], param[3], param[4], param[5], param[6], param[7]));
     }
 } 

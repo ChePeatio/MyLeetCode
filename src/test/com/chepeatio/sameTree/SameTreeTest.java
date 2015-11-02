@@ -45,7 +45,6 @@ public class SameTreeTest {
     */
     @Test
     public void testIsSameTree() throws Exception {
-        //TODO: Test goes here...
         assertTrue(test.isSameTree(p, q));
     }
 
@@ -56,7 +55,6 @@ public class SameTreeTest {
     */
     @Test
     public void testIsSameTreeBS() throws Exception {
-        //TODO: Test goes here...
         assertTrue(test.isSameTreeBS(p, q));
     }
 } 
