@@ -1,4 +1,4 @@
-package com.chepeatio.maximumDepthofBinaryTree;
+package com.chepeatio.maximumDepthOfBinaryTree;
 
 /**
  * Created by Che Peatio on 2015/10/21.

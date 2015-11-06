@@ -1,4 +1,4 @@
-package com.chepeatio.maximumDepthofBinaryTree;
+package com.chepeatio.maximumDepthOfBinaryTree;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,4 +1,4 @@
-package com.chepeatio.bestTimetoBuyandSellStock;
+package com.chepeatio.bestTimeToBuyAndSellStock;
 
 /**
  * Created by Che Peatio on 2015/10/27.

@@ -1,7 +1,7 @@
 package com.chepeatio.addDigits;
 
 /**
- * Created by CheKedar on 2015/10/19.
+ * Created by Che Peatio on 2015/10/19.
  */
 public class AddDigits {
     public int addDigits(int num) {

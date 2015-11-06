@@ -1,6 +1,6 @@
 package test.com.chepeatio.bestTimetoBuyandSellStock;
 
-import com.chepeatio.bestTimetoBuyandSellStock.BestTimetoBuyandSellStock;
+import com.chepeatio.bestTimeToBuyAndSellStock.BestTimetoBuyandSellStock;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
