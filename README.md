@@ -1,5 +1,7 @@
 # MyLeetCode
+
 ----
+
 鄙人最近在做LeetCode题目，src中是自己写的解法源码和更好的解法源码，及简单的测试代码。
 
 当下已经完成的题目如下：
@@ -35,5 +37,6 @@
 * 242 [Valid Anagram](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/validAnagram/ValidAnagram.java)
 * 258 [Add Digits](https://github.com/ChePeatio/MyLeetCode/blob/master/src/com/chepeatio/addDigits/AddDigits.java)
 * 260 [Single Number III](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/singleNumber/SingleNumberIII.java)
+* 268 [Missing Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/missingNumber/MissingNumber.java)
 * 283 [Move Zeros](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/moveZeros/MoveZeros.java)
 * 292 [Nim Game](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/nimGame/NimGame.java)
