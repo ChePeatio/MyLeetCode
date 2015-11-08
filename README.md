@@ -6,6 +6,7 @@
 
 当下已经完成的题目如下：
 
+* 001 [Two Sum](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/twoSum/TwoSum.java)
 * 029 [Divide Two Integers](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/divideTwoIntegers/DivideTwoIntegers.java)
 * 052 [N-Queen II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/n_Queens/N_Queens_II.java)
 * 059 [Spiral Matrix II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/spiralMatrix/SpiralMatrixII.java)
