@@ -5,12 +5,14 @@ package com.chepeatio.uniqueBinarySearchTrees;
  */
 public class UniqueBinarySearchTrees {
     public int numTrees(int n) {
-        int sum = 0;
-        int[] array = new int[n];
-        for (int i=0; i<n; i++) {
-
+        int[] array = new int[n+1];
+        array[0] = 1;
+        for (int cur=1; cur<n+1; cur++) {
+            for (int i=0; i<cur; i++) {
+                array[cur] += array[i] * array[cur-1-i];
+            }
         }
-        return sum;
+        return array[n];
     }
     public int numTreesTLE(int n) {
         int sum = 0;

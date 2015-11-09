@@ -14,6 +14,7 @@
 * 074 [Search a 2D Matrix](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchA2DMatrix/SearchA2DMatrix.java)
 * 086 [Partition List](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/partitionList/PartitionList.java)
 * 094 [Binary Tree Inorder Traversal](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/binaryTreeInorderTraversal/BinaryTreeInorderTraversal.java)
+* 096 [Unique Binary Search Trees](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/uniqueBinarySearchTrees/UniqueBinarySearchTrees.java)
 * 100 [Same Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/sameTree/SameTree.java)
 * 104 [Maximum Depth of Binary Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/maximumDepthOfBinaryTree/MaximumDepthOfBinaryTree.java)
 * 116 [Populating Next Right Pointers in Each Node](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/populatingNextRightPointersInEachNode/PopulatingNextRightPointersInEachNode.java)

@@ -45,4 +45,12 @@ public class UniqueBinarySearchTreesTest {
     public void testNumTrees() throws Exception {
         Assert.assertEquals(res, test.numTrees(param));
     }
+
+    /**
+     * Method: numTreesTLE(int n)
+     */
+    /*@Test
+    public void testNumTreesTLE() throws Exception {
+        Assert.assertEquals(res, test.numTreesTLE(param));
+    }*/
 }
