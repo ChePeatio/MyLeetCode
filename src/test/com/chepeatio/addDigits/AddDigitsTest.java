@@ -28,8 +28,8 @@ public class AddDigitsTest {
                 {768, 3},
                 {9, 9},
                 {18, 9}
-            });
-        }
+        });
+    }
 
     // 构造函数，对变量进行初始化
     public AddDigitsTest(int param, int result) {
