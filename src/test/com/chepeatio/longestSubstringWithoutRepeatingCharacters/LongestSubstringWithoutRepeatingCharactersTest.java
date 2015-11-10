@@ -3,8 +3,6 @@ package test.com.chepeatio.longestSubstringWithoutRepeatingCharacters;
 import com.chepeatio.longestSubstringWithoutRepeatingCharacters.LongestSubstringWithoutRepeatingCharacters;
 import junit.framework.Assert;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -29,7 +27,8 @@ public class LongestSubstringWithoutRepeatingCharactersTest {
     public static Collection data() {
         return Arrays.asList(new Object[][]{
                 {"abcabcbb", 3},
-                {"bbbbb", 1}
+                {"bbbbb", 1},
+                {"c", 1}
         });
     }
 
@@ -44,5 +43,13 @@ public class LongestSubstringWithoutRepeatingCharactersTest {
     @Test
     public void testLengthOfLongestSubstring() throws Exception {
         Assert.assertEquals(res, test.lengthOfLongestSubstring(param));
+    }
+
+    /**
+     * Method: lengthOfLongestSubstringBS(String s)
+     */
+    @Test
+    public void testLengthOfLongestSubstringBS() throws Exception {
+        Assert.assertEquals(res, test.lengthOfLongestSubstringBS(param));
     }
 } 
