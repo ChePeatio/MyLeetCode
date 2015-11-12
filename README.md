@@ -9,7 +9,8 @@
 * 001 [Two Sum](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/twoSum/TwoSum.java)
 * 002 [Add Two Numbers](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/addTwoNumbers/AddTwoNumbers.java)
 * 003 [Longest Substring Without Repeating Characters](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/longestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
-* 004 Median of Two Sorted Arrays
+* 004 [Median of Two Sorted Arrays](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/medianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
+* 013 [Roman to Integer](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/romanToInteger/RomanToInteger.java)
 * 029 [Divide Two Integers](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/divideTwoIntegers/DivideTwoIntegers.java)
 * 035 [Search Insert Position](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInsertPosition/SearchInsertPosition.java)
 * 052 [N-Queen II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/n_Queens/N_Queens_II.java)

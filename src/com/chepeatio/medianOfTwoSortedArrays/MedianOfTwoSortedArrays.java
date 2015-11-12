@@ -7,7 +7,7 @@ import java.util.List;
  * Created by Che Peatio on 2015/11/10.
  */
 public class MedianOfTwoSortedArrays {
-    public double findMedianSortedArray(int[] nums1, int[] nums2) {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         if (nums1.length == 0) {
             if (nums2.length == 0)
                 return 0;
