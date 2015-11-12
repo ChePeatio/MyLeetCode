@@ -1,4 +1,4 @@
-package com.chepeatio.WordLadder;
+package com.chepeatio.W1ordLadder;
 
 import java.util.Set;
 
