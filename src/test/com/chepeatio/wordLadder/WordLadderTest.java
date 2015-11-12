@@ -1,6 +1,6 @@
 package test.com.chepeatio.wordLadder;
 
-import com.chepeatio.W1ordLadder.WordLadder;
+import com.chepeatio.wordLadder.WordLadder;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
