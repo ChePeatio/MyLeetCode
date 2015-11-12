@@ -48,10 +48,10 @@ public class MedianOfTwoSortedArraysTest {
     }
 
     /**
-     * Method: findMedianSortedArraysLB(int[] nums1, int[] nums2)
+     * Method: findMedianSortedArraysLS(int[] nums1, int[] nums2)
      */
     @Test
-    public void testFindMedianSortedArraysLB() throws Exception {
-        Assert.assertEquals(res, test.findMedianSortedArrays(param1, param2));
+    public void testFindMedianSortedArraysLS() throws Exception {
+        Assert.assertEquals(res, test.findMedianSortedArraysLS(param1, param2));
     }
 } 

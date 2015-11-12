@@ -7,6 +7,12 @@ import java.util.List;
  * Created by Che Peatio on 2015/11/10.
  */
 public class MedianOfTwoSortedArrays {
+    /**
+     * 未实现的方法
+     * @param nums1 目标数组1
+     * @param nums2 目标数组2
+     * @return 两个数组的中位数
+     */
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         if (nums1.length == 0) {
             if (nums2.length == 0)

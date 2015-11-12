@@ -1,48 +1,56 @@
 package test.com.chepeatio.singleNumber;
 
 import com.chepeatio.singleNumber.SingleNumberII;
-import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.Before;
+import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import java.util.Arrays;
 import java.util.Collection;
 
-import static org.junit.Assert.assertEquals;
-
 /**
- * Created by CheKedar on 2015/10/20.
+ * SingleNumberII Tester.
+ *
+ * @author <Authors name>
+ * @version 1.0
+ * @since <pre>Ê®Ò»ÔÂ 12, 2015</pre>
  */
 @RunWith(Parameterized.class)
 public class SingleNumberIITest {
 
     SingleNumberII test = new SingleNumberII();
     int[] param;
-    int[] result;
+    int res;
 
     @Parameterized.Parameters
     public static Collection data() {
         return Arrays.asList(new Object[][]{
-                {new int[]{1,2,3,4,1,3,4,5}, new int[]{5,2}},
-                {new int[]{1,1,2,2,3,3,7,4}, new int[]{7,4}},
-                {new int[]{3,4}, new int[]{3,4}}
+                {new int[]{1, 1, 3, 4, 1, 3, 3}, 4},
+                {new int[]{4}, 4}
         });
     }
 
-    public SingleNumberIITest(int[] param, int[] result) {
-        this.param = param;
-        this.result = result;
+    public SingleNumberIITest(int[] parameter, int result) {
+        param = parameter;
+        res = result;
     }
 
+    /**
+     * Method: singleNumber(int[] nums)
+     */
     @Test
-    public void TestSingleNumber() {
-        Assert.assertArrayEquals(result, test.singleNumber(param));
+    public void testSingleNumber() throws Exception {
+        Assert.assertEquals(res, test.singleNumber(param));
     }
 
+    /**
+     * Method: singleNumberBS(int[] nums)
+     */
     @Test
-    public void TestSingleNumberBS() {
-        Assert.assertArrayEquals(result, test.singleNumberBS(param));
+    public void testSingleNumberBS() throws Exception {
+        Assert.assertEquals(res, test.singleNumberBS(param));
     }
-}
+} 

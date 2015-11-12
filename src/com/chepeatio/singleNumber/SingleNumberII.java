@@ -1,44 +1,46 @@
 package com.chepeatio.singleNumber;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 
 /**
- * Created by Che Peatio on 2015/10/28.
+ * Created by Che Peatio on 2015/11/12.
  */
 public class SingleNumberII {
-    public int[] singleNumber(int[] nums) {
-        int[] result = new int[2];
-        Set<Integer> bag = new HashSet<>();
-        for (int x : nums) {
-            if (bag.contains(x))
-                bag.remove(x);
-            else
-                bag.add(x);
+    public int singleNumber(int[] nums) {
+        Set<Integer> badSet = new HashSet<>();
+        Set<Integer> goodSet = new HashSet<>();
+        for (int num : nums) {
+            if (badSet.contains(num)) {
+            } else if (goodSet.contains(num)) {
+                goodSet.remove(num);
+                badSet.add(num);
+            } else {
+                goodSet.add(num);
+            }
         }
-        Object[] obj = bag.toArray();
-        result[0] = (int)obj[0];
-        result[1] = (int)obj[1];
-        return result;
+        Object[] obj = goodSet.toArray();
+        return (int)obj[0];
     }
 
-    public int[] singleNumberBS(int[] nums) {
-        int[] result = new int[2];
-        int temp = 0;
+    /**
+     * 位操作肯定是效率最高的，但是为了使用位操作而逐位的操作是没有低效的
+     * 该解法是一种通用的解法，既然除一个数字之外其它数字都出现三次，那么每个bit也会出现三次，
+     * 那么用状态00,01,10来表示三个状态（出现1次、2次、3次）并循环，即可达到过滤出现3次的情况，
+     * 留下的bit组成的整数便是要求的数字
+     * 对于状态转移，我使用了卡诺图来化简，从而使运行时间从2ms变为1ms。
+     * @param nums 目标数组
+     * @return 最终结果
+     */
+    public int singleNumberBS(int[] nums) {
+        int a = 0;
+        int b = 0;
         for (int num : nums) {
-            temp ^= num;
+            int ta = a&~num | b&num;
+            b = b&~num | ~a&~b&num;
+            a = ta;
         }
 
-        temp &= -temp;
-
-        for (int num: nums) {
-            if ((temp & num) != 0)
-                result[0] ^= num;
-            else
-                result[1] ^= num;
-        }
-        return result;
+        return b;
     }
 }
