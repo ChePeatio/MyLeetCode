@@ -9,12 +9,14 @@
 * 001 [Two Sum](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/twoSum/TwoSum.java)
 * 002 [Add Two Numbers](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/addTwoNumbers/AddTwoNumbers.java)
 * 003 [Longest Substring Without Repeating Characters](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/longestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
-* 004 <font color="red">[Median of Two Sorted Arrays](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/medianOfTwoSortedArrays/MedianOfTwoSortedArrays.java) </font>
+* 004 <font color="#FF00FF">[Median of Two Sorted Arrays](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/medianOfTwoSortedArrays/MedianOfTwoSortedArrays.java) </font>
+* 012 [Integer to Roman](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/integerToRoman/IntegerToRoman.java)
 * 013 [Roman to Integer](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/romanToInteger/RomanToInteger.java)
 * 029 [Divide Two Integers](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/divideTwoIntegers/DivideTwoIntegers.java)
 * 035 [Search Insert Position](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInsertPosition/SearchInsertPosition.java)
 * 052 [N-Queen II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/n_Queens/N_Queens_II.java)
 * 059 [Spiral Matrix II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/spiralMatrix/SpiralMatrixII.java)
+* 071 [Simplify Path](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/simplifyPath/SimplifyPath.java)
 * 074 [Search a 2D Matrix](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchA2DMatrix/SearchA2DMatrix.java)
 * 086 [Partition List](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/partitionList/PartitionList.java)
 * 094 [Binary Tree Inorder Traversal](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/binaryTreeInorderTraversal/BinaryTreeInorderTraversal.java)
@@ -25,7 +27,7 @@
 * 118 [Pascal's Triangle](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/pascalTriangle/PascalTriangle.java)
 * 121 [Best Time to Buy and Sell Stock](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/bestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
 * 122 [Best Time to Buy and Sell Stock II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/bestTimeToBuyAndSellStock/BestTimeToBuyAndSellStockII.java)
-* 127 [Word Ladder](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/wordLadder/WordLadder.java)
+* 127 <font color="red">[Word Ladder](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/wordLadder/WordLadder.java) </font>
 * 133 [Clone Graph](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/cloneGraph/CloneGraph.java)
 * 136 [Single Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/singleNumber/SingleNumber.java)
 * 137 [Single Number II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/singleNumber/SingleNumberII.java)
