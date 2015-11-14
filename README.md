@@ -27,7 +27,7 @@
 * 118 [Pascal's Triangle](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/pascalTriangle/PascalTriangle.java)
 * 121 [Best Time to Buy and Sell Stock](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/bestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.java)
 * 122 [Best Time to Buy and Sell Stock II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/bestTimeToBuyAndSellStock/BestTimeToBuyAndSellStockII.java)
-* 127 <font color="red">[Word Ladder](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/wordLadder/WordLadder.java) </font>
+* 127 <font color="#FF00FF">[Word Ladder](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/wordLadder/WordLadder.java) </font>
 * 133 [Clone Graph](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/cloneGraph/CloneGraph.java)
 * 136 [Single Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/singleNumber/SingleNumber.java)
 * 137 [Single Number II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/singleNumber/SingleNumberII.java)
