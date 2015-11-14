@@ -7,6 +7,42 @@ import java.util.*;
  * Edited by Che Peatio on 2015/11/13.
  */
 public class WordLadder {
+
+    /**
+     * 使用Dijkstra算法，应该是比较对路子的算法，但没有好好理解，后续再看！！！
+     * 也不算对路子，Dijkstra算法的路径权值不是1，而本题的权值都是1，可以用更加简单的方法来求解
+     * @param beginWord
+     * @param endWord
+     * @param wordList
+     * @return
+     */
+    public int ladderLengthRS(String beginWord, String endWord, Set<String> wordList) {
+        Set<String> reached = new HashSet<String>();
+        reached.add(beginWord);
+        wordList.add(endWord);
+        int distance = 1;
+        while(!reached.contains(endWord)) {
+            Set<String> toAdd = new HashSet<String>();
+            for(String each : reached) {
+                for (int i = 0; i < each.length(); i++) {
+                    char[] chars = each.toCharArray();
+                    for (char ch = 'a'; ch <= 'z'; ch++) {
+                        chars[i] = ch;
+                        String word = new String(chars);
+                        if(wordList.contains(word)) {
+                            toAdd.add(word);
+                            wordList.remove(word);
+                        }
+                    }
+                }
+            }
+            distance ++;
+            if(toAdd.size() == 0) return 0;
+            reached = toAdd;
+        }
+        return distance;
+    }
+
     public int ladderLength(String beginWord, String endWord, Set<String> wordList) {
         int result = 1;
         Set<String> visited = new HashSet<>();
