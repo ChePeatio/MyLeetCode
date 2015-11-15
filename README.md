@@ -17,7 +17,7 @@
 * 052 [N-Queen II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/n_Queens/N_Queens_II.java)
 * 053 [Maximum Subarray](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/maximumSubarray/MaximumSubarray.java)
 * 059 [Spiral Matrix II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/spiralMatrix/SpiralMatrixII.java)
-* 070 [Climbing Stairs]((https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/climbingStairs/ClimbingStairs.java)
+* 070 [Climbing Stairs](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/climbingStairs/ClimbingStairs.java)
 * 071 [Simplify Path](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/simplifyPath/SimplifyPath.java)
 * 074 [Search a 2D Matrix](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchA2DMatrix/SearchA2DMatrix.java)
 * 086 [Partition List](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/partitionList/PartitionList.java)
