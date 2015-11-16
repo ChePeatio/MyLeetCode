@@ -55,4 +55,5 @@
 * 260 [Single Number III](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/singleNumber/SingleNumberIII.java)
 * 268 [Missing Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/missingNumber/MissingNumber.java)
 * 283 [Move Zeros](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/moveZeros/MoveZeros.java)
+* 287 [Find the Duplicate Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/findTheDuplicateNumber/FindTheDuplicateNumber.java)
 * 292 [Nim Game](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/nimGame/NimGame.java)
