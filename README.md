@@ -15,10 +15,12 @@
 * 029 [Divide Two Integers](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/divideTwoIntegers/DivideTwoIntegers.java)
 * 035 [Search Insert Position](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInsertPosition/SearchInsertPosition.java)
 * 052 [N-Queen II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/n_Queens/N_Queens_II.java)
+* 053 [Maximum Subarray](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/maximumSubarray/MaximumSubarray.java)
 * 059 [Spiral Matrix II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/spiralMatrix/SpiralMatrixII.java)
 * 070 [Climbing Stairs](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/climbingStairs/ClimbingStairs.java)
 * 071 [Simplify Path](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/simplifyPath/SimplifyPath.java)
 * 074 [Search a 2D Matrix](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchA2DMatrix/SearchA2DMatrix.java)
+* 083 <font color="green">[Remove Duplicates from Sorted List](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedList.java)</font>
 * 086 [Partition List](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/partitionList/PartitionList.java)
 * 094 [Binary Tree Inorder Traversal](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/binaryTreeInorderTraversal/BinaryTreeInorderTraversal.java)
 * 096 [Unique Binary Search Trees](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/uniqueBinarySearchTrees/UniqueBinarySearchTrees.java)
@@ -54,4 +56,5 @@
 * 260 [Single Number III](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/singleNumber/SingleNumberIII.java)
 * 268 [Missing Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/missingNumber/MissingNumber.java)
 * 283 [Move Zeros](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/moveZeros/MoveZeros.java)
+* 287 [Find the Duplicate Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/findTheDuplicateNumber/FindTheDuplicateNumber.java)
 * 292 [Nim Game](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/nimGame/NimGame.java)
