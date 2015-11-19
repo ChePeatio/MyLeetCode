@@ -40,6 +40,7 @@
 * 144 [Binary Tree Preorder Traversal](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/binaryTreePreorderTraversal/BinaryTreePreorderTraversal.java)
 * 148 [Sort List](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/sortList/SortList.java)
 * 152 [Maximum Product Subarray](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/maximumProductSubarray/MaximumProductSubarray.java)
+* 153 [Find Minimum in Rotated Sorted Array](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/findMinimumInRotatedSortedArray/FindMinimumInRotatedSortedArray.java)
 * 169 [Majority Element](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/majorityElement/MajorityElement.java)
 * 171 [Excel Sheet Column Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/excelSheetColumnNumber/ExcelSheetColumnNumber.java)
 * 201 [Bitwise AND of Numbers Range](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/bitwiseANDofNumbersRange/BitwiseANDofNumbersRange.java)
