@@ -21,8 +21,9 @@
 * 070 [Climbing Stairs](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/climbingStairs/ClimbingStairs.java)
 * 071 [Simplify Path](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/simplifyPath/SimplifyPath.java)
 * 074 [Search a 2D Matrix](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchA2DMatrix/SearchA2DMatrix.java)
-* 083 <font color="green">[*Remove Duplicates from Sorted List*](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedList.java)</font>
+* 083 <font color="green">[~~Remove Duplicates from Sorted List~~](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedList.java)</font>
 * 086 [Partition List](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/partitionList/PartitionList.java)
+* 089 [Gray Code](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/grayCode/GrayCode.java)
 * 094 [Binary Tree Inorder Traversal](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/binaryTreeInorderTraversal/BinaryTreeInorderTraversal.java)
 * 096 [Unique Binary Search Trees](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/uniqueBinarySearchTrees/UniqueBinarySearchTrees.java)
 * 100 [Same Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/sameTree/SameTree.java)
