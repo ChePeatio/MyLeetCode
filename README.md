@@ -58,6 +58,7 @@
 * 242 [Valid Anagram](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/validAnagram/ValidAnagram.java)
 * 258 [Add Digits](https://github.com/ChePeatio/MyLeetCode/blob/master/src/com/chepeatio/addDigits/AddDigits.java)
 * 260 [Single Number III](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/singleNumber/SingleNumberIII.java)
+* 263 [Ugly Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/uglyNumber/UglyNumber.java)
 * 268 [Missing Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/missingNumber/MissingNumber.java)
 * 283 [Move Zeros](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/moveZeros/MoveZeros.java)
 * 287 [Find the Duplicate Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/findTheDuplicateNumber/FindTheDuplicateNumber.java)
