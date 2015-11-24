@@ -12,6 +12,7 @@
 * 004 [**Median of Two Sorted Arrays**](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/medianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
 * 012 [Integer to Roman](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/integerToRoman/IntegerToRoman.java)
 * 013 [Roman to Integer](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/romanToInteger/RomanToInteger.java)
+* 022 [Generate Parentheses](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/generateParentheses/GenerateParentheses.java)
 * 029 [Divide Two Integers](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/divideTwoIntegers/DivideTwoIntegers.java)
 * 035 [Search Insert Position](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInsertPosition/SearchInsertPosition.java)
 * 052 [N-Queen II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/n_Queens/N_Queens_II.java)
