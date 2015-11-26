@@ -1,9 +1,7 @@
 package com.chepeatio.kthSmallestElementInaBST;
 
-import java.util.*;
-
 /**
- * Created by Che Peatio on 2015/11/26.
+ * Created and Finished by Che Peatio on 2015/11/26.
  */
 public class KthSmallestElementInaBST {
 

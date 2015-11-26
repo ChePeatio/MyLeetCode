@@ -1,11 +1,8 @@
 package test.com.chepeatio.kthSmallestElementInaBST;
 
 import com.chepeatio.kthSmallestElementInaBST.KthSmallestElementInaBST;
-import com.chepeatio.kthSmallestElementInaBST.TreeNode;
-import junit.framework.Assert;
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
