@@ -16,6 +16,7 @@
 * 022 [Generate Parentheses](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/generateParentheses/GenerateParentheses.java)
 * 029 [Divide Two Integers](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/divideTwoIntegers/DivideTwoIntegers.java)
 * 035 [Search Insert Position](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInsertPosition/SearchInsertPosition.java)
+* 046 [Permutations](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/permutations/Permutations.java)
 * 052 [N-Queen II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/n_Queens/N_Queens_II.java)
 * 053 [Maximum Subarray](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/maximumSubarray/MaximumSubarray.java)
 * 059 [Spiral Matrix II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/spiralMatrix/SpiralMatrixII.java)
