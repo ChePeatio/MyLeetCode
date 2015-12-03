@@ -14,6 +14,7 @@
 * 013 [Roman to Integer](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/romanToInteger/RomanToInteger.java)
 * 021 [~~Merge Two Sorted Lists~~](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/mergeTwoSortedLists/MergeTwoSortedLists.java)
 * 022 [Generate Parentheses](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/generateParentheses/GenerateParentheses.java)
+* 024 [Swap Nodes in Pairs](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/swapNodesInPairs/SwapNodesInPairs.java)
 * 029 [Divide Two Integers](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/divideTwoIntegers/DivideTwoIntegers.java)
 * 035 [Search Insert Position](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInsertPosition/SearchInsertPosition.java)
 * 046 [Permutations](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/permutations/Permutations.java)
