@@ -22,6 +22,7 @@
 * 053 [Maximum Subarray](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/maximumSubarray/MaximumSubarray.java)
 * 059 [Spiral Matrix II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/spiralMatrix/SpiralMatrixII.java)
 * 062 [Unique Paths](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/uniquePaths/UniquePaths.java)
+* 064 [Minimum Path Sum](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/minimumPathSum/MinimumPathSum.java)
 * 070 [Climbing Stairs](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/climbingStairs/ClimbingStairs.java)
 * 071 [Simplify Path](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/simplifyPath/SimplifyPath.java)
 * 074 [Search a 2D Matrix](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchA2DMatrix/SearchA2DMatrix.java)
