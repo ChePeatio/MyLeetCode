@@ -7,7 +7,7 @@ package com.chepeatio.bestTimeToBuyAndSellStockWithCooldown;
 public class BestTimeToBuyAndSellStockWithCooldown {
 
     /**
-     * DP题目，完全想不通整个思路，参考了http://www.cnblogs.com/grandyang/p/4997417.html
+     * DP题目，完全想不通整个思路，参考了https://leetcode.com/discuss/71354/share-my-thinking-process
      * 完成了这次的题目
      * @param prices 多天股票的价格
      * @return 最大收益
