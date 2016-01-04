@@ -10,12 +10,13 @@ public class BurstBalloons {
             if (num==0)
                 return 0;
         }
-        if (nums.length == 0)
+        int count = nums.length;
+        if (count == 0)
             return 0;
 
         // Generate a linked list to store the nums.
-        LinkedNode head = new LinkedNode(-1);
-        LinkedNode tail = new LinkedNode(-1);
+        LinkedNode head = new LinkedNode(1);
+        LinkedNode tail = new LinkedNode(1);
         LinkedNode temp = head, temp2;
         for (int num : nums) {
             temp2 = new LinkedNode(num);
@@ -27,8 +28,15 @@ public class BurstBalloons {
         tail.left = temp;
 
         temp = head.right;
+        while (temp != null) {
+            if (temp.val != 1) break;
+            temp = temp.right;
+        }
+        if (temp == null)
+            return count;
+
         int res = 1;
-        while (temp.left.val!=-1 || temp.right.val!=-1) {
+        while (temp.left!=head || temp.right!=tail) {
             if (temp.right.val > temp.val) {
                 if (temp.left.val == -1) {
                     res += temp.val * temp.right.val;
