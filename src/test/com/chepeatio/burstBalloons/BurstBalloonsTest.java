@@ -26,10 +26,10 @@ public class BurstBalloonsTest {
     @Parameterized.Parameters
     public static Collection data() {
         return Arrays.asList(new Object[][]{
-                {new int[]{1,0,1}, 0},
+                {new int[]{1,0,1}, 2},
                 {new int[]{3,1,5,8}, 167},
-                {new int[]{1,1,1,1,1,1,1,1,1}, 1},
-                {new int[]{1,2,3,4,5,6}, 76}
+                {new int[]{1,1,1,1,1,1,1,1,1}, 9},
+                {new int[]{1,2,3,4,5,6}, 252}
         });
     }
 

@@ -5,38 +5,43 @@ package com.chepeatio.burstBalloons;
  */
 public class BurstBalloons {
     public int maxCoins(int[] nums) {
-        // Judge if there is 0 in the list or the length of the array is 0.
-        for (int num : nums) {
-            if (num==0)
-                return 0;
-        }
-        int count = nums.length;
-        if (count == 0)
-            return 0;
-
         // Generate a linked list to store the nums.
+        int count = 0;
         LinkedNode head = new LinkedNode(1);
         LinkedNode tail = new LinkedNode(1);
         LinkedNode temp = head, temp2;
         for (int num : nums) {
-            temp2 = new LinkedNode(num);
-            temp.right = temp2;
-            temp2.left = temp;
-            temp = temp2;
+            if (num != 0) { // filter 0 for further process
+                temp2 = new LinkedNode(num);
+                temp.right = temp2;
+                temp2.left = temp;
+                temp = temp2;
+                count++;
+            }
         }
         temp.right = tail;
         tail.left = temp;
 
-        temp = head.right;
-        while (temp != null) {
-            if (temp.val != 1) break;
-            temp = temp.right;
+        // handle 1 in two sides
+        int countOf1 = 0;
+        while (head.right.val == 1) {
+            if (head.right == tail) {
+                return countOf1;
+            } else {
+                head = head.right;
+                countOf1++;
+            }
         }
-        if (temp == null)
-            return count;
+        while (tail.left.val == 1) {
+            tail = tail.left;
+            countOf1++;
+        }
+        count -= countOf1;
 
+        // data will be head-(x1>1)-...-(xn>1)-tail
+        temp = head.right;
         int res = 1;
-        while (temp.left!=head || temp.right!=tail) {
+        while (head.right.right != tail) {
             if (temp.right.val > temp.val) {
                 if (temp.left.val == -1) {
                     res += temp.val * temp.right.val;
@@ -65,7 +70,7 @@ public class BurstBalloons {
                 temp = temp.right;
             }
         }
-        res += temp.val;
+        res += temp.val * (countOf1 + 1);
         return res;
     }
 
