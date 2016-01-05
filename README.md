@@ -105,6 +105,7 @@
 * 268 [Missing Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/missingNumber/MissingNumber.java)
 * 274 [H-Index](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/h_Index/H_Index.java)
 * 275 [H-Index II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/h_Index/H_IndexII.java)
+* 279 [Perfect Squares](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/perfectSquares/PerfectSquares.java)
 * 283 [Move Zeros](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/moveZeros/MoveZeros.java)
 * 284 [Peeking Iterator](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/peekingIterator/PeekingIterator.java)
 * 287 [Find the Duplicate Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/findTheDuplicateNumber/FindTheDuplicateNumber.java)
