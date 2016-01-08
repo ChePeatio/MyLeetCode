@@ -1,16 +1,15 @@
 package com.chepeatio;
 
-import com.chepeatio.pathSum.PathSum;
+import com.chepeatio.burstBalloons.BurstBalloons;
+import com.chepeatio.minimumDepthOfBinaryTree.MinimumDepthOfBinaryTree;
 
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
         System.out.println("Hello, LeetCode!");
-        PathSum test = new PathSum();
-        if (test.hasPathSum(test.generateTree(), 22))
-            System.out.println("hehe");
-        else
-            System.out.println("nono");
+        int[] param = new int[]{3,1,5,8};
+        BurstBalloons test = new BurstBalloons();
+        System.out.println(test.maxCoins(param));
     }
 }

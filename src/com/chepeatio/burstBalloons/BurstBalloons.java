@@ -2,85 +2,30 @@ package com.chepeatio.burstBalloons;
 
 /**
  * Created by Che Peatio on 2016/1/2.
+ * Edited by Che Peatio on 2016/1/8.
  */
 public class BurstBalloons {
+    /**
+     * I have to say it's a good problem of DP, since I had confused several days.
+     * The DP solution like the article: https://leetcode.com/discuss/72216/share-some-analysis-and-explanations
+     * 像这种求极值问题，我们一般都要考虑用动态规划Dynamic Programming来做
+     * @param nums the list
+     * @return max coins
+     */
     public int maxCoins(int[] nums) {
-        // Generate a linked list to store the nums.
-        int count = 0;
-        LinkedNode head = new LinkedNode(1);
-        LinkedNode tail = new LinkedNode(1);
-        LinkedNode temp = head, temp2;
-        for (int num : nums) {
-            if (num != 0) { // filter 0 for further process
-                temp2 = new LinkedNode(num);
-                temp.right = temp2;
-                temp2.left = temp;
-                temp = temp2;
-                count++;
+        int[] noZeroNums = new int[nums.length + 2];
+        int n = 1;
+        for (int x : nums) if (x > 0) noZeroNums[n++] = x;
+        noZeroNums[0] = noZeroNums[n++] = 1;
+
+        int[][] dp = new int[n][n];
+        for (int k = 2; k < n; ++k)
+            for (int left = 0; left < n - k; ++left) {
+                int right = left + k;
+                for (int i = left + 1; i < right; ++i)
+                    dp[left][right] = Math.max(dp[left][right],
+                            noZeroNums[left] * noZeroNums[i] * noZeroNums[right] + dp[left][i] + dp[i][right]);
             }
-        }
-        temp.right = tail;
-        tail.left = temp;
-
-        // handle 1 in two sides
-        int countOf1 = 0;
-        while (head.right.val == 1) {
-            if (head.right == tail) {
-                return countOf1;
-            } else {
-                head = head.right;
-                countOf1++;
-            }
-        }
-        while (tail.left.val == 1) {
-            tail = tail.left;
-            countOf1++;
-        }
-        count -= countOf1;
-
-        // data will be head-(x1>1)-...-(xn>1)-tail
-        temp = head.right;
-        int res = 1;
-        while (head.right.right != tail) {
-            if (temp.right.val > temp.val) {
-                if (temp.left.val == -1) {
-                    res += temp.val * temp.right.val;
-                    temp.right.left = temp.left;
-                    temp.left.right = temp.right;
-                    temp = temp.right;
-                } else {
-                    res += temp.left.val * temp.val * temp.right.val;
-                    temp.right.left = temp.left;
-                    temp.left.right = temp.right;
-                    temp = temp.left;
-                }
-            } else if (temp.right.val == temp.val) {
-                if (temp.left.val == temp.val) {
-                    res += temp.left.val * temp.val * temp.right.val;
-                    temp.right.left = temp.left;
-                    temp.left.right = temp.right;
-                    temp = temp.left;
-                } // there should be more handle process
-            } else if (temp.right.val == -1) {
-                if (temp.left.val > temp.val) {
-
-                }
-                temp = head.right;
-            } else {
-                temp = temp.right;
-            }
-        }
-        res += temp.val * (countOf1 + 1);
-        return res;
-    }
-
-    class LinkedNode {
-        LinkedNode left;
-        LinkedNode right;
-        int val;
-
-        public LinkedNode(int num) {
-            val = num;
-        }
+        return dp[0][n - 1];
     }
 }
