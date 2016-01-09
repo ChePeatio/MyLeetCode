@@ -117,3 +117,5 @@
 * 300 [Longest Increasing Subsequence](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/longestIncreasingSubsequence/LongestIncreasingSubsequence.java)
 * 309 [**Best Time to Buy and Sell Stock with Cooldown**](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/bestTimeToBuyAndSellStockWithCooldown/BestTimeToBuyAndSellStockWithCooldown.java)
 * 312 [**Burst Balloons**](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/burstBalloons/BurstBalloons.java)
+* 318 [Maximum Product of Word Lengths](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/maximumProductOfWordLengths/MaximumProductOfWordLengths.java)
+* 319 [Bulb Switcher](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/bulbSwitcher/BulbSwitcher.java)
