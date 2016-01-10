@@ -53,6 +53,7 @@
 * 110 [Balanced Binary Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/balancedBinaryTree/BalancedBinaryTree.java)
 * 111 [Minimum Depth of Binary Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/minimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.java)
 * 112 [Path Sum](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/pathSum/PathSum.java)
+* 114 [Flatten Binary Tree to Linked List](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/flattenBinaryTreeToLinkedList/FlattenBinaryTreeToLinkedList.java)
 * 116 [Populating Next Right Pointers in Each Node](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/populatingNextRightPointersInEachNode/PopulatingNextRightPointersInEachNode.java)
 * 117 [Populating Next Right Pointers in Each Node II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/populatingNextRightPointersInEachNode/PopulatingNextRightPointersInEachNodeII.java)
 * 118 [Pascal's Triangle](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/pascalTriangle/PascalTriangle.java)
@@ -119,3 +120,4 @@
 * 312 [**Burst Balloons**](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/burstBalloons/BurstBalloons.java)
 * 318 [Maximum Product of Word Lengths](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/maximumProductOfWordLengths/MaximumProductOfWordLengths.java)
 * 319 [Bulb Switcher](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/bulbSwitcher/BulbSwitcher.java)
+* 326 [Power of Three](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/powerOfThree/PowerOfThree.java)
