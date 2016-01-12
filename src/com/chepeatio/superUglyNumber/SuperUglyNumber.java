@@ -32,44 +32,32 @@ public class SuperUglyNumber {
     /** Here is my solution after I saw other's solution.
      * I thought multiply too many times would make the solution slow,
      * then I proposed my solution. However, I was wrong, and my solution is so ugly!!!
-     * @param n
-     * @param primes
-     * @return
+     * Edited by Che Peatio in 2016/01/12, and simplified the code and got better efficient and simpler solution.
+     * @param n sequence number
+     * @param primes base numbers
+     * @return target number
      */
     public int nthSuperUglyNumber(int n, int[] primes) {
-        if (n == 1)
-            return 1;
         int[] res = new int[n];
         res[0] = 1;
-        res[1] = primes[0];
-        for (int i = 2; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             res[i] = Integer.MAX_VALUE;
         }
 
         int[] indexs = new int[primes.length];
-        indexs[0] = 1;
-
         int[] vals = new int[primes.length];
         System.arraycopy(primes, 0, vals, 0, primes.length);
 
-        int[] changes = new int[primes.length];
-        int scale = 1;
-
-        for (int i = 2; i < n; i++) {
-            for (int j=0; j<scale; j++) {
-                vals[changes[j]] = res[indexs[changes[j]]] * primes[changes[j]];
-            }
-
+        for (int i = 1; i < n; i++) {
             for (int val : vals) {
                 if (res[i] > val)
                     res[i] = val;
             }
 
-            scale = 0;
             for (int j = 0; j < primes.length; j++) {
                 if (res[i] == vals[j]) {
                     indexs[j] += 1;
-                    changes[scale++] = j;
+                    vals[j] = res[indexs[j]] * primes[j];
                 }
             }
         }

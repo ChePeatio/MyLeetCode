@@ -11,7 +11,11 @@ import java.util.Collection;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Created by CheKedar on 2015/10/19.
+ * ContainsDuplicateII Tester.
+ *
+ * @author Che Peatio
+ * @version 1.0
+ * @since <pre>Ò»ÔÂ 12, 2016</pre>
  */
 @RunWith(Parameterized.class)
 public class AddDigitsTest {
