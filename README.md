@@ -42,6 +42,7 @@
 * 081 [Search in Rotated Sorted Array II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInRotatedSortedArray/SearchInRotatedSortedArrayII.java)
 * 083 [~~Remove Duplicates from Sorted List~~](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedList.java)
 * 086 [Partition List](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/partitionList/PartitionList.java)
+* 088 [Merge Sorted Array](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/mergeSortedArray/MergeSortedArray.java)
 * 089 [Gray Code](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/grayCode/GrayCode.java)
 * 094 [Binary Tree Inorder Traversal](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/binaryTreeInorderTraversal/BinaryTreeInorderTraversal.java)
 * 096 [Unique Binary Search Trees](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/uniqueBinarySearchTrees/UniqueBinarySearchTrees.java)
