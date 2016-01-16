@@ -1,13 +1,14 @@
 package com.chepeatio;
 
 import com.chepeatio.convertSortedListToBinarySearchTree.ConvertSortedListToBinarySearchTree;
+import com.chepeatio.reverseBits.ReverseBits;
 
 public class Main {
 
     public static void main(String[] args) {
 	// write your code here
         System.out.println("Hello, LeetCode!");
-        ConvertSortedListToBinarySearchTree test = new ConvertSortedListToBinarySearchTree();
-        test.displayTree(test.sortedListToBST(test.getListHead()));
+        ReverseBits test = new ReverseBits();
+        test.reverseBits(1);
     }
 }
