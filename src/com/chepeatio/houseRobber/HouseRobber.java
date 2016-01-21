@@ -8,8 +8,8 @@ public class HouseRobber {
     /**
      * dynamic programming problem
      * The solution is finding the recurrence formula.
-     * @param nums
-     * @return
+     * @param nums cash of robbed houses
+     * @return max cashes
      */
     public int rob(int[] nums) {
         int a = 0, b = 0;
@@ -23,8 +23,8 @@ public class HouseRobber {
 
     /**
      * original solution
-     * @param nums
-     * @return
+     * @param nums cash of robbed houses
+     * @return max cashes
      */
     public int robLongTimeSolution(int[] nums) {
         if (nums==null || nums.length==0)
