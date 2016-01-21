@@ -106,6 +106,7 @@
 * 223 [Rectangle Area](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/rectangleArea/RectangleArea.java)
 * 225 [Implement Stack using Queues](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/implementStackUsingQueues/ImplementStackUsingQueues.java)
 * 226 [Invert Binary Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/invertBinaryTree/InvertBinaryTree.java)
+* 229 [Majority Element II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/majorityElement/MajorityElementII.java)
 * 230 [Kth Smallest Element in a BST](https://github.com/ChePeatio/MyLeetCode/blob/master/src/com/chepeatio/kthSmallestElementInaBST/KthSmallestElementInaBST.java)
 * 231 [~~Power of Two~~](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/powerOfTwo/PowerOfTwo.java)
 * 232 [~~Implement Queue using Stacks~~](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/implementQueueUsingStacks/ImplementQueueUsingStacks.java)
