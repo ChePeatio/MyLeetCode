@@ -136,3 +136,4 @@
 * 319 [Bulb Switcher](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/bulbSwitcher/BulbSwitcher.java)
 * 326 [Power of Three](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/powerOfThree/PowerOfThree.java)
 * 328 [Odd Even Linked List](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/oddEvenLinkedList/OddEvenLinkedList.java)
+* 334 [Increasing Triplet Subsequence](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/increasingTripletSubsequence/IncreasingTripletSubsequence.java)
