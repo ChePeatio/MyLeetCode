@@ -14,7 +14,7 @@ import java.util.Set;
 /** 
 * WordLadder Tester. 
 * 
-* @author <Authors name> 
+* @author Che Peatio
 * @since <pre>Ê®Ò»ÔÂ 12, 2015</pre> 
 * @version 1.0 
 */
@@ -51,6 +51,6 @@ public class WordLadderTest {
      */
     @Test
     public void testLadderLength() throws Exception {
-        Assert.assertEquals(res, test.ladderLength(beginWord, endWord, wordList));
+        Assert.assertEquals(res, test.wordLadder1(beginWord, endWord, wordList));
     }
 }
