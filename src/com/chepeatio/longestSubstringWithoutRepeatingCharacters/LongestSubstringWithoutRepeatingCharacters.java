@@ -29,7 +29,8 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
     /**
-     * 并没有理解这种算法是如何做到的，但是可以知道用队列这种方式的效率还是很低的，需要再斟酌
+     * 整个算法就获取当前字符后判断当前长度内有没有一样的字符，没有则加入继续，有则从重复字符后起重新计算字符串长度
+     * 数组类似hash的作用，方便查找上一次该字符所在的位置。
      * @param s is the string
      * @return length of longest substring
      */

@@ -10,6 +10,8 @@
 * 002 [Add Two Numbers](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/addTwoNumbers/AddTwoNumbers.java)
 * 003 [Longest Substring Without Repeating Characters](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/longestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.java)
 * 004 [**Median of Two Sorted Arrays**](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/medianOfTwoSortedArrays/MedianOfTwoSortedArrays.java)
+* 005 [Longest Palindromic Substring](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/longestPalindromicSubstring/LongestPalindromicSubstring.java)
+* 006 [ZigZag Conversion](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/zigZagConversion/ZigZagConversion.java)
 * 007 [Reverse Integer](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/reverseInteger/ReverseInteger.java)
 * 008 [String to Integer (atoi)](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/stringToInteger/StringToInteger.java)
 * 009 [Palindrome Number](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/palindromeNumber/PalindromeNumber.java)
