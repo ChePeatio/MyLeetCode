@@ -5,7 +5,7 @@ import java.util.Queue;
 
 /**
  * Created by Che Peatio on 2015/11/9.
- * Edited by Che Peatio on 2015/11/10.
+ * Edited by Che Peatio on 2016/4/24.
  */
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
@@ -40,11 +40,13 @@ public class LongestSubstringWithoutRepeatingCharacters {
             lastIndices[i] = -1;
         }
 
+        char[] chArray = s.toCharArray();
+        int strLen = chArray.length;
         int maxLen = 0;
         int curLen = 0;
         int start = 0;
-        for(int i = 0; i<s.length(); i++){
-            char cur = s.charAt(i);
+        for(int i = 0; i<strLen; i++){
+            char cur = chArray[i];
             if(lastIndices[cur]  < start){
                 lastIndices[cur] = i;
                 curLen++;
