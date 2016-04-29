@@ -1,10 +1,13 @@
 package com.chepeatio.maximumDepthOfBinaryTree;
 
+import com.chepeatio.binaryTreeStructure.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
 /**
  * Created by Che Peatio on 2015/10/21.
+ * Edited by Che Peatio on 2016/04/29.
  */
 public class MaximumDepthOfBinaryTree {
     public int maxDepth(TreeNode root) {
