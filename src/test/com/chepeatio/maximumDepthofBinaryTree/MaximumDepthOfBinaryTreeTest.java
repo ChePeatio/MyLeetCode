@@ -3,15 +3,15 @@ package test.com.chepeatio.maximumDepthofBinaryTree;
 import com.chepeatio.maximumDepthOfBinaryTree.MaximumDepthOfBinaryTree;
 import com.chepeatio.binaryTreeStructure.TreeNode;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.Before;
 
-import static junit.framework.Assert.assertEquals;
 
 /** 
 * MaximumDepthOfBinaryTree Tester. 
 * 
-* @author <Authors name> 
+* @author Che Peatio
 * @since <pre>Ê®ÔÂ 27, 2015</pre> 
 * @version 1.0 
 */ 
@@ -36,6 +36,6 @@ public class MaximumDepthOfBinaryTreeTest {
     */
     @Test
     public void testMaxDepth() throws Exception {
-        assertEquals(4, test.maxDepth(root));
+        Assert.assertEquals(4, test.maxDepth(root));
     }
 }
