@@ -63,7 +63,7 @@
 * 100 [Same Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/sameTree/SameTree.java)
 * 101 [Symmetric Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/symmetricTree/SymmetricTree.java)
 * 102 [Binary Tree Level Order Traversal](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversal.java)
-* 104 [Maximum Depth of Binary Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/maximumDepthOfBinaryTree/MaximumDepthOfBinaryTree.java)
+* 104 [Maximum Depth of Binary Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/maximumDepthofBinaryTree/MaximumDepthOfBinaryTree.java)
 * 107 [Binary Tree Level Order Traversal II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/binaryTreeLevelOrderTraversal/BinaryTreeLevelOrderTraversalII.java)
 * 108 [Convert Sorted Array to Binary Search Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/convertSortedArrayToBinarySearchTree/ConvertSortedArrayToBinarySearchTree.java)
 * 109 [Convert Sorted List to Binary Search Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/convertSortedListToBinarySearchTree/ConvertSortedListToBinarySearchTree.java)
