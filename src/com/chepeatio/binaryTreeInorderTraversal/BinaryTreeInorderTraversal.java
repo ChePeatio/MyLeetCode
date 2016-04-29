@@ -1,5 +1,7 @@
 package com.chepeatio.binaryTreeInorderTraversal;
 
+import com.chepeatio.binaryTreeStructure.TreeNode;
+
 import java.util.*;
 
 /**

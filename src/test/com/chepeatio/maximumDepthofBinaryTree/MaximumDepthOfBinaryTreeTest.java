@@ -1,7 +1,8 @@
 package test.com.chepeatio.maximumDepthofBinaryTree; 
 
 import com.chepeatio.maximumDepthOfBinaryTree.MaximumDepthOfBinaryTree;
-import com.chepeatio.maximumDepthOfBinaryTree.TreeNode;
+import com.chepeatio.binaryTreeStructure.TreeNode;
+
 import org.junit.Test;
 import org.junit.Before;
 

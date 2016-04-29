@@ -1,5 +1,6 @@
 package com.chepeatio;
 
+import com.chepeatio.binaryTreeStructure.TreeNode;
 import com.chepeatio.subsets.SubsetsII;
 
 import java.util.List;
@@ -9,13 +10,11 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         System.out.println("Hello, LeetCode!");
-        SubsetsII test = new SubsetsII();
-        List<List<Integer>> lists = test.subsetsWithDup(new int[]{1,2,2});
-        for (List<Integer> list : lists) {
-            for (int num : list) {
-                System.out.print(num + " ");
-            }
-            System.out.println();
-        }
+
+        TreeNode root = TreeNode.generateTree("1,2,3,#,#,4,#,#,5");
+        TreeNode.printTree(root);
+
+        root = TreeNode.generateTree("1,2,3,4,5,6,7,8,9,10");
+        TreeNode.printTree(root);
     }
 }

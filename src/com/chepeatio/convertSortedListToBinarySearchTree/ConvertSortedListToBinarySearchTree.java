@@ -1,5 +1,7 @@
 package com.chepeatio.convertSortedListToBinarySearchTree;
 
+import com.chepeatio.binaryTreeStructure.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 

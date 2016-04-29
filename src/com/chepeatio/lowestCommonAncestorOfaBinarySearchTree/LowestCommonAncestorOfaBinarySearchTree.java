@@ -1,7 +1,10 @@
 package com.chepeatio.lowestCommonAncestorOfaBinarySearchTree;
 
+import com.chepeatio.binaryTreeStructure.TreeNode;
+
 /**
  * Created by Che Peatio on 2015/11/2.
+ * Edited by Che Peatio on 2016/04/29.
  */
 public class LowestCommonAncestorOfaBinarySearchTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {

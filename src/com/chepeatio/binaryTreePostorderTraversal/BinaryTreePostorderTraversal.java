@@ -1,5 +1,7 @@
 package com.chepeatio.binaryTreePostorderTraversal;
 
+import com.chepeatio.binaryTreeStructure.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,17 +18,5 @@ public class BinaryTreePostorderTraversal {
         res.addAll(postorderTraversal(root.right));
         res.add(root.val);
         return res;
-    }
-
-    public TreeNode generateTree() {
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(7);
-        root.right.right = new TreeNode(8);
-        root.left.left = new TreeNode(3);
-        root.left.right = new TreeNode(4);
-        root.left.right.left = new TreeNode(5);
-        root.left.right.right = new TreeNode(6);
-        return root;
     }
 }

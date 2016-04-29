@@ -1,7 +1,10 @@
 package com.chepeatio.balancedBinaryTree;
 
+import com.chepeatio.binaryTreeStructure.TreeNode;
+
 /**
  * Created by Che Peatio on 2015/12/9.
+ * Edited by Che Peatio on 2016/04/29.
  */
 public class BalancedBinaryTree {
 

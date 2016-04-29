@@ -1,5 +1,7 @@
 package com.chepeatio.minimumDepthOfBinaryTree;
 
+import com.chepeatio.binaryTreeStructure.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 

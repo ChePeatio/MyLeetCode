@@ -1,7 +1,8 @@
 package test.com.chepeatio.sameTree;
 
-import com.chepeatio.sameTree.TreeNode;
+import com.chepeatio.binaryTreeStructure.TreeNode;
 import com.chepeatio.sameTree.SameTree;
+
 import org.junit.Test;
 import org.junit.Before;
 
@@ -10,7 +11,7 @@ import static junit.framework.Assert.assertTrue;
 /** 
 * SameTree Tester. 
 * 
-* @author <Authors name> 
+* @author Che Peatio
 * @since <pre>Ê®ÔÂ 27, 2015</pre> 
 * @version 1.0 
 */ 
