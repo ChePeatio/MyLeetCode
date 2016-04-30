@@ -60,6 +60,7 @@
 * 089 [Gray Code](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/grayCode/GrayCode.java)
 * 090 [Subsets II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/subsets/SubsetsII.java)
 * 094 [Binary Tree Inorder Traversal](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/binaryTreeInorderTraversal/BinaryTreeInorderTraversal.java)
+* 095 [Unique Binary Search Trees II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/uniqueBinarySearchTreesII/UniqueBinarySearchTreesII.java)
 * 096 [Unique Binary Search Trees](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/uniqueBinarySearchTrees/UniqueBinarySearchTrees.java)
 * 100 [Same Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/sameTree/SameTree.java)
 * 101 [Symmetric Tree](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/symmetricTree/SymmetricTree.java)
