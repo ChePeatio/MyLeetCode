@@ -29,6 +29,7 @@
 * 022 [Generate Parentheses](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/generateParentheses/GenerateParentheses.java)
 * 023 [Merge k Sorted Lists](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/mergeKSortedLists/MergeKSortedLists.java)
 * 024 [~~Swap Nodes in Pairs~~](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/swapNodesInPairs/SwapNodesInPairs.java)
+* 025 [Reverse Nodes in k-Group](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/reverseNodesInKGroup/ReverseNodesInKGroup.java)
 * 026 [Remove Duplicates from Sorted Array](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/removeDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.java)
 * 027 [Remove Element](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/removeElement/RemoveElement.java)
 * 028 [Implement strStr()](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/implement_strStr/Implement_strStr.java)
