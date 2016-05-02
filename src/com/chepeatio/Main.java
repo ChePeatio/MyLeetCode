@@ -1,9 +1,6 @@
 package com.chepeatio;
 
-import com.chepeatio.binaryTreeStructure.TreeNode;
-import com.chepeatio.subsets.SubsetsII;
-
-import java.util.List;
+import com.chepeatio.utils.TreeNode;
 
 public class Main {
 

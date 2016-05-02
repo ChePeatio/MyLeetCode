@@ -1,6 +1,6 @@
 package test.com.chepeatio.invertBinaryTree;
 
-import com.chepeatio.binaryTreeStructure.TreeNode;
+import com.chepeatio.utils.TreeNode;
 import com.chepeatio.invertBinaryTree.InvertBinaryTree;
 
 import org.junit.Test;

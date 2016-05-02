@@ -1,6 +1,6 @@
 package com.chepeatio.convertSortedArrayToBinarySearchTree;
 
-import com.chepeatio.binaryTreeStructure.TreeNode;
+import com.chepeatio.utils.TreeNode;
 
 /**
  * Created by Che Peatio on 2015/11/18.

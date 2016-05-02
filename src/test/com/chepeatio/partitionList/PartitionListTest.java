@@ -1,8 +1,7 @@
 package test.com.chepeatio.partitionList;
 
-import com.chepeatio.partitionList.ListNode;
+import com.chepeatio.utils.ListNode;
 import com.chepeatio.partitionList.PartitionList;
-import com.chepeatio.partitionList.UtilFunctions;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,7 +13,8 @@ import java.util.Collection;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Created by CheKedar on 2015/10/19.
+ * Created by Che Peatio on 2015/10/19.
+ * Edited by Che Peatio on 2016/05/02.
  */
 @RunWith(Parameterized.class)
 public class PartitionListTest {
@@ -41,7 +41,7 @@ public class PartitionListTest {
 
     @Test
     public void Test1PartitionList() {
-        ListNode head = UtilFunctions.generateListNode(param);
+        ListNode head = ListNode.generateList(param);
         head = part.PartitionNS(head, flag);
         assertEquals(result, head.getValList());
     }

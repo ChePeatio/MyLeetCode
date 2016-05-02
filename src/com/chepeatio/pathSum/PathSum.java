@@ -1,6 +1,6 @@
 package com.chepeatio.pathSum;
 
-import com.chepeatio.binaryTreeStructure.TreeNode;
+import com.chepeatio.utils.TreeNode;
 
 import java.util.HashSet;
 import java.util.Set;

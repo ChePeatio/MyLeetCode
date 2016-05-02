@@ -1,5 +1,7 @@
 package com.chepeatio.intersectionOfTwoLinkedLists;
 
+import com.chepeatio.utils.ListNode;
+
 import java.util.HashSet;
 
 /**

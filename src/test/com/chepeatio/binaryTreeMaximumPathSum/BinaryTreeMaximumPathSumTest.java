@@ -1,11 +1,9 @@
 package test.com.chepeatio.binaryTreeMaximumPathSum;
 
 import com.chepeatio.binaryTreeMaximumPathSum.BinaryTreeMaximumPathSum;
-import com.chepeatio.binaryTreeStructure.TreeNode;
+import com.chepeatio.utils.TreeNode;
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 

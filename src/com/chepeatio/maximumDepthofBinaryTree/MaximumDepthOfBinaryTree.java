@@ -1,6 +1,6 @@
 package com.chepeatio.maximumDepthOfBinaryTree;
 
-import com.chepeatio.binaryTreeStructure.TreeNode;
+import com.chepeatio.utils.TreeNode;
 
 import java.util.LinkedList;
 import java.util.Queue;

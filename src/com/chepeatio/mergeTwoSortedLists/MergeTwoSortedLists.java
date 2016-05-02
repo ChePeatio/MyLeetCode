@@ -1,7 +1,10 @@
 package com.chepeatio.mergeTwoSortedLists;
 
+import com.chepeatio.utils.ListNode;
+
 /**
  * Created by Che Peatio on 2015/11/30.
+ * Edited by Che Peatio on 2016/05/01.
  */
 public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

@@ -1,7 +1,8 @@
 package test.com.chepeatio.sortList;
 
-import com.chepeatio.sortList.ListNode;
+import com.chepeatio.utils.ListNode;
 import com.chepeatio.sortList.SortList;
+
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +14,7 @@ import java.util.Collection;
 /**
  * SortList Tester.
  *
- * @author <Authors name>
+ * @author Che Peatio
  * @version 1.0
  * @since <pre>Ê®Ò»ÔÂ 6, 2015</pre>
  */

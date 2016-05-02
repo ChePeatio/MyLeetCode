@@ -1,4 +1,4 @@
-package com.chepeatio.binaryTreeStructure;
+package com.chepeatio.utils;
 
 import java.util.LinkedList;
 import java.util.Queue;

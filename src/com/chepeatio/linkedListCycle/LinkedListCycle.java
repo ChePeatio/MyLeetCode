@@ -1,5 +1,7 @@
 package com.chepeatio.linkedListCycle;
 
+import com.chepeatio.utils.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 

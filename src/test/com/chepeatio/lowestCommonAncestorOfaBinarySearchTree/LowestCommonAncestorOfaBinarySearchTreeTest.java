@@ -1,7 +1,7 @@
 package test.com.chepeatio.lowestCommonAncestorOfaBinarySearchTree;
 
 import com.chepeatio.lowestCommonAncestorOfaBinarySearchTree.LowestCommonAncestorOfaBinarySearchTree;
-import com.chepeatio.binaryTreeStructure.TreeNode;
+import com.chepeatio.utils.TreeNode;
 
 import org.junit.Assert;
 import org.junit.Test;

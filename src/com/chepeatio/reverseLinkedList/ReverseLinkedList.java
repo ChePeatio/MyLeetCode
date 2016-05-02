@@ -1,10 +1,13 @@
 package com.chepeatio.reverseLinkedList;
 
+import com.chepeatio.utils.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Che Peatio on 2015/11/1.
+ * Edited by Che Peatio on 2016/05/02.
  */
 public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
@@ -25,7 +28,7 @@ public class ReverseLinkedList {
     }
 
     public ListNode generateList(int[] arr) {
-        if (arr.length==0 || arr==null)
+        if (arr==null || arr.length==0)
             return null;
         ListNode head = new ListNode(arr[0]);
         ListNode temp = head;

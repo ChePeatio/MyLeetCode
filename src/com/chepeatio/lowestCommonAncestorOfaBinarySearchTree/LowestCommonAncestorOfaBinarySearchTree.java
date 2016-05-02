@@ -1,6 +1,6 @@
 package com.chepeatio.lowestCommonAncestorOfaBinarySearchTree;
 
-import com.chepeatio.binaryTreeStructure.TreeNode;
+import com.chepeatio.utils.TreeNode;
 
 /**
  * Created by Che Peatio on 2015/11/2.

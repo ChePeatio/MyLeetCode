@@ -1,6 +1,6 @@
 package test.com.chepeatio.sameTree;
 
-import com.chepeatio.binaryTreeStructure.TreeNode;
+import com.chepeatio.utils.TreeNode;
 import com.chepeatio.sameTree.SameTree;
 
 import org.junit.Test;

@@ -1,6 +1,6 @@
 package com.chepeatio.binaryTreePreorderTraversal;
 
-import com.chepeatio.binaryTreeStructure.TreeNode;
+import com.chepeatio.utils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

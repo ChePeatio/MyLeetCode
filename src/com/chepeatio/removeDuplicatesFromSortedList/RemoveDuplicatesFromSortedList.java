@@ -1,5 +1,7 @@
 package com.chepeatio.removeDuplicatesFromSortedList;
 
+import com.chepeatio.utils.ListNode;
+
 import java.util.ArrayList;
 
 /**

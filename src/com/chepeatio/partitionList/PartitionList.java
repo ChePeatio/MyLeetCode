@@ -1,5 +1,7 @@
 package com.chepeatio.partitionList;
 
+import com.chepeatio.utils.ListNode;
+
 public class PartitionList {
 
     /**
