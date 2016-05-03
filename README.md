@@ -38,6 +38,7 @@
 * 033 [Search in Rotated Sorted Array](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInRotatedSortedArray/SearchInRotatedSortedArray.java)
 * 035 [Search Insert Position](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInsertPosition/SearchInsertPosition.java)
 * 036 [~~Valid Sudoku~~](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/validSudoku/ValidSudoku.java)
+* 038 [Count and Say](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/countAndSay/CountAndSay.java)
 * 039 [Combination Sum](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/combinationSum/CombinationSum.java)
 * 042 [Trapping Rain Water](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/trappingRainWater/TrappingRainWater.java)
 * 046 [Permutations](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/permutations/Permutations.java)
