@@ -34,6 +34,7 @@
 * 027 [Remove Element](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/removeElement/RemoveElement.java)
 * 028 [Implement strStr()](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/implement_strStr/Implement_strStr.java)
 * 029 [Divide Two Integers](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/divideTwoIntegers/DivideTwoIntegers.java)
+* 030 [Substring with Concatenation of All Words](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/substringWithConcatenationOfAllWords/SubstringWithConcatenationOfAllWords.java)
 * 031 [Next Permutation](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/nextPermutation/NextPermutation.java)
 * 033 [Search in Rotated Sorted Array](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInRotatedSortedArray/SearchInRotatedSortedArray.java)
 * 035 [Search Insert Position](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInsertPosition/SearchInsertPosition.java)
