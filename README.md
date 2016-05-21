@@ -42,6 +42,7 @@
 * 036 [~~Valid Sudoku~~](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/validSudoku/ValidSudoku.java)
 * 038 [Count and Say](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/countAndSay/CountAndSay.java)
 * 039 [Combination Sum](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/combinationSum/CombinationSum.java)
+* 040 [Combination Sum II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/combinationSum/CombinationSumII.java)
 * 042 [Trapping Rain Water](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/trappingRainWater/TrappingRainWater.java)
 * 046 [Permutations](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/permutations/Permutations.java)
 * 048 [Rotate Image](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/rotateImage/RotateImage.java)

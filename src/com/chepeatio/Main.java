@@ -1,17 +1,22 @@
 package com.chepeatio;
 
-import com.chepeatio.utils.TreeNode;
+import com.chepeatio.combinationSum.CombinationSumII;
+
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         System.out.println("Hello, LeetCode!");
 
-        TreeNode root = TreeNode.generateTree("1,2,3,#,#,4,#,#,5");
-        TreeNode.printTree(root);
-
-        root = TreeNode.generateTree("1,2,3,4,5,6,7,8,9,10");
-        TreeNode.printTree(root);
+        CombinationSumII test = new CombinationSumII();
+        List<List<Integer>> res = test.combinationSum2(new int[]{10, 1, 2, 7, 6, 1, 5}, 8);
+        if (res != null)
+            for (List<Integer> li : res) {
+                for (int i : li)
+                    System.out.print(i + " ");
+                System.out.println();
+            }
     }
 }
