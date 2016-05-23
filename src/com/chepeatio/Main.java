@@ -1,6 +1,7 @@
 package com.chepeatio;
 
 import com.chepeatio.combinationSum.CombinationSumII;
+import com.chepeatio.permutations.PermutationsII;
 
 import java.util.List;
 
@@ -10,13 +11,13 @@ public class Main {
         // write your code here
         System.out.println("Hello, LeetCode!");
 
-        CombinationSumII test = new CombinationSumII();
-        List<List<Integer>> res = test.combinationSum2(new int[]{10, 1, 2, 7, 6, 1, 5}, 8);
-        if (res != null)
-            for (List<Integer> li : res) {
-                for (int i : li)
-                    System.out.print(i + " ");
-                System.out.println();
+        PermutationsII test = new PermutationsII();
+        List<List<Integer>> lli = test.permuteUniqueImprove(new int[]{1,1,2});
+        for (List<Integer> li : lli) {
+            for (int i : li) {
+                System.out.print(i + " ");
             }
+            System.out.println();
+        }
     }
 }
