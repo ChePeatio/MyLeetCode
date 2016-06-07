@@ -3,10 +3,9 @@ package test.com.chepeatio.sameTree;
 import com.chepeatio.utils.TreeNode;
 import com.chepeatio.sameTree.SameTree;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.Before;
-
-import static junit.framework.Assert.assertTrue;
 
 /** 
 * SameTree Tester. 
@@ -17,9 +16,9 @@ import static junit.framework.Assert.assertTrue;
 */ 
 public class SameTreeTest { 
 
-    SameTree test = new SameTree();
-    TreeNode p = new TreeNode(3);
-    TreeNode q = new TreeNode(3);
+    private SameTree test = new SameTree();
+    private TreeNode p = new TreeNode(3);
+    private TreeNode q = new TreeNode(3);
     @Before
     public void before() throws Exception {
         p.left = new TreeNode(7);
@@ -46,7 +45,7 @@ public class SameTreeTest {
     */
     @Test
     public void testIsSameTree() throws Exception {
-        assertTrue(test.isSameTree(p, q));
+        Assert.assertTrue(test.isSameTree(p, q));
     }
 
     /**
@@ -56,6 +55,6 @@ public class SameTreeTest {
     */
     @Test
     public void testIsSameTreeBS() throws Exception {
-        assertTrue(test.isSameTreeBS(p, q));
+        Assert.assertTrue(test.isSameTreeBS(p, q));
     }
 } 

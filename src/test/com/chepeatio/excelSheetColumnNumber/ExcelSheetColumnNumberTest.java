@@ -1,10 +1,8 @@
 package test.com.chepeatio.excelSheetColumnNumber;
 
 import com.chepeatio.excelSheetColumnNumber.ExcelSheetColumnNumber;
-import junit.framework.Assert;
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -16,14 +14,14 @@ import java.util.Collection;
  *
  * @author Che Peatio
  * @version 1.0
- * @since <pre>Ê®ÔÂ 30, 2015</pre>
+ * @since <pre>Ê®ï¿½ï¿½ 30, 2015</pre>
  */
 @RunWith(Parameterized.class)
 public class ExcelSheetColumnNumberTest {
 
-    ExcelSheetColumnNumber test = new ExcelSheetColumnNumber();
-    String param;
-    int res;
+    private ExcelSheetColumnNumber test = new ExcelSheetColumnNumber();
+    private String param;
+    private int res;
 
     @Parameterized.Parameters
     public static Collection data() {
@@ -47,6 +45,4 @@ public class ExcelSheetColumnNumberTest {
     public void testTitleToNumber() throws Exception {
         Assert.assertEquals(res, test.titleToNumber(param));
     }
-
-
 } 

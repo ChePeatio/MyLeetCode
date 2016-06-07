@@ -1,10 +1,8 @@
 package test.com.chepeatio.validAnagram;
 
 import com.chepeatio.validAnagram.ValidAnagram;
-import junit.framework.Assert;
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -16,14 +14,14 @@ import java.util.Collection;
  *
  * @author <Authors name>
  * @version 1.0
- * @since <pre>Ê®ÔÂ 31, 2015</pre>
+ * @since <pre>Ê®ï¿½ï¿½ 31, 2015</pre>
  */
 @RunWith(Parameterized.class)
 public class ValidAnagramTest {
 
-    ValidAnagram test = new ValidAnagram();
-    String[] param;
-    boolean res;
+    private ValidAnagram test = new ValidAnagram();
+    private String[] param;
+    private boolean res;
 
     @Parameterized.Parameters
     public static Collection data() {
