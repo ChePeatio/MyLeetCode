@@ -8,6 +8,7 @@ public class Sqrt_x {
     /**
      * This is a normal version. Since big numbers' multiply operation cost as much as small numbers,
      * we use bits to generate the result, which is faster than manual algorithm.
+     * However, max positive integer is 2^31, so we should be careful about overflow.
      * @param x integer value
      * @return sqrt of x
      */

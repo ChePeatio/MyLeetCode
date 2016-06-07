@@ -63,6 +63,7 @@
 * 064 [Minimum Path Sum](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/minimumPathSum/MinimumPathSum.java)
 * 066 [Plus One](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/plusOne/PlusOne.java)
 * 067 [Add Binary](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/addBinary/AddBinary.java)
+* 069 [Sqrt(x)](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/sqrt_x/Sqrt_x.java)
 * 070 [Climbing Stairs](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/climbingStairs/ClimbingStairs.java)
 * 071 [Simplify Path](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/simplifyPath/SimplifyPath.java)
 * 073 [Set Matrix Zeroes](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/setMatrixZeroes/SetMatrixZeroes.java)
