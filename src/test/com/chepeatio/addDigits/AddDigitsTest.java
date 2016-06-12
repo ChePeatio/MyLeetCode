@@ -20,9 +20,9 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class AddDigitsTest {
 
-    AddDigits test = new AddDigits();
-    int param;
-    int result;
+    private AddDigits test = new AddDigits();
+    private int param;
+    private int result;
 
     @Parameterized.Parameters
     public static Collection data() {
