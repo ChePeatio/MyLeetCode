@@ -1,10 +1,6 @@
 package com.chepeatio;
 
-import com.chepeatio.combinationSum.CombinationSumII;
 import com.chepeatio.permutationSequence.PermutationSequence;
-import com.chepeatio.permutations.PermutationsII;
-
-import java.util.List;
 
 public class Main {
 

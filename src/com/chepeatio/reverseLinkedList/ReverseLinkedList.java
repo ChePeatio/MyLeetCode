@@ -26,30 +26,4 @@ public class ReverseLinkedList {
         }
         return result.next;
     }
-
-    public ListNode generateList(int[] arr) {
-        if (arr==null || arr.length==0)
-            return null;
-        ListNode head = new ListNode(arr[0]);
-        ListNode temp = head;
-        for (int i=1; i<arr.length; i++) {
-            temp.next = new ListNode(arr[i]);
-            temp = temp.next;
-        }
-        return head;
-    }
-
-    public int[] listnodeToArray(ListNode head) {
-        List<Integer> arr = new ArrayList<>();
-        ListNode temp = head;
-        while (temp != null) {
-            arr.add(temp.val);
-            temp = temp.next;
-        }
-        int[] res = new int[arr.size()];
-        for (int i=0; i<arr.size(); i++) {
-            res[i] = arr.get(i);
-        }
-        return res;
-    }
 }
