@@ -17,10 +17,10 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class DivideTwoIntegersTest {
 
-    DivideTwoIntegers test = new DivideTwoIntegers();
-    int dividend;
-    int divisor;
-    int result;
+    private DivideTwoIntegers test = new DivideTwoIntegers();
+    private int dividend;
+    private int divisor;
+    private int result;
 
     @Parameterized.Parameters
     public static Collection data() {

@@ -20,9 +20,9 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class BestTimetoBuyandSellStockIITest {
 
-    BestTimetoBuyandSellStockII test = new BestTimetoBuyandSellStockII();
-    int[] param;
-    int result;
+    private BestTimetoBuyandSellStockII test = new BestTimetoBuyandSellStockII();
+    private int[] param;
+    private int result;
 
     @Parameterized.Parameters
     public static Collection data() {

@@ -71,6 +71,7 @@
 * 075 [~~Sort Colors~~](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/sortColors/SortColors.java)
 * 077 [Combinations](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/combinations/Combinations.java)
 * 078 [Subsets](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/subsets/Subsets.java)
+* 079 [Word Search](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/wordSearch/WordSearch.java)
 * 080 [Remove Duplicates from Sorted Array II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/removeDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArrayII.java)
 * 081 [Search in Rotated Sorted Array II](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/searchInRotatedSortedArray/SearchInRotatedSortedArrayII.java)
 * 083 [~~Remove Duplicates from Sorted List~~](https://github.com/ChePeatio/MyLeetCode/tree/master/src/com/chepeatio/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedList.java)
