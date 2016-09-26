@@ -1,10 +1,8 @@
 package com.chepeatio.maximumProductSubarray;
 
 import com.chepeatio.maximumProductSubarray.MaximumProductSubarray;
-import junit.framework.Assert;
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -21,9 +19,9 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class MaximumProductSubarrayTest {
 
-    MaximumProductSubarray test = new MaximumProductSubarray();
-    int[] param;
-    int res;
+    private MaximumProductSubarray test = new MaximumProductSubarray();
+    private int[] param;
+    private int res;
 
     @Parameterized.Parameters
     public static Collection data() {

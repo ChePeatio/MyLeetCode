@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * Created by Che Peatio on 2015/11/12.
- * Edited by Che Peatio on 2015/11/13.
+ * Edited by Che Peatio on 2016/04/20.
  */
 public class WordLadder {
 
@@ -17,12 +17,12 @@ public class WordLadder {
      * @return
      */
     public int ladderLengthRS(String beginWord, String endWord, Set<String> wordList) {
-        Set<String> reached = new HashSet<String>();
+        Set<String> reached = new HashSet<>();
         reached.add(beginWord);
         wordList.add(endWord);
         int distance = 1;
         while(!reached.contains(endWord)) {
-            Set<String> toAdd = new HashSet<String>();
+            Set<String> toAdd = new HashSet<>();
             for(String each : reached) {
                 for (int i = 0; i < each.length(); i++) {
                     char[] chars = each.toCharArray();
@@ -118,14 +118,109 @@ public class WordLadder {
 
     public boolean isNeighbor(String s1, String s2) {
         int len = s1.length();
+        char[] ch1 = s1.toCharArray();
+        char[] ch2 = s2.toCharArray();
         int diff = 0;
-        for (int i=0; i<len; i++) {
-            if (s1.charAt(i)!=s2.charAt(i)) {
+        for (int i=0; i<len&&diff<2; i++) {
+            if (ch1[i]!=ch2[i]) {
                 diff++;
-                if (diff>1)
-                    return false;
             }
         }
-        return true;
+        return diff <= 1;
+    }
+
+    /**
+     * 该题目的双端BFS解法，由于不需要输出路径，因此建立两个Set，分别从begin和end开始向外搜索，每次都遍历搜索空间小的那一方
+     * 这样能够尽可能的提高效率，防止一端搜索时的空间状态迅速扩大。
+     * 另外在判断相邻字母是否在wordList中时，该算法使用了先构建再判断的方式，另一种方式是依次取wordList中的元素判断。
+     * 经过试验，后者会超时，而前者的效率非常高：这是因为后者的判断会因为wordList长度的增加而增加，而前者只与26个字母相关，因此保持了稳定性
+     * 所以在较大的数据集上，后者会出现超时的现象，因此在做字符串处理的时候应该选择前者。
+     * @param beginWord
+     * @param endWord
+     * @param wordList
+     * @return
+     */
+    public int wordLadder(String beginWord, String endWord, Set<String> wordList) {
+        Set<String> beginSet = new HashSet<>();
+        Set<String> endSet = new HashSet<>();
+
+        int len = 1;
+        HashSet<String> visited = new HashSet<>();
+
+        beginSet.add(beginWord);
+        endSet.add(endWord);
+        while (!beginSet.isEmpty() && !endSet.isEmpty()) {
+            if (beginSet.size() > endSet.size()) {
+                Set<String> set = beginSet;
+                beginSet = endSet;
+                endSet = set;
+            }
+
+            Set<String> temp = new HashSet<>();
+            for (String word : beginSet) {
+                char[] chs = word.toCharArray();
+
+                for (int i=0; i<chs.length; i++) {
+                    for (char c='a'; c<='z'; c++) {
+                        char old = chs[i];
+                        chs[i] = c;
+                        String target = String.valueOf(chs);
+
+                        if (endSet.contains(target)) {
+                            return len + 1;
+                        }
+
+                        if (!visited.contains(target) && wordList.contains(target)) {
+                            temp.add(target);
+                            visited.add(target);
+                        }
+                        chs[i] = old;
+                    }
+                }
+            }
+            beginSet = temp;
+            len++;
+        }
+        return 0;
+    }
+
+    // 验证isNeighbor方法效率的代码，事实证明自己的方法效率太low了
+    public int wordLadder1(String beginWord, String endWord, Set<String> wordList) {
+        Set<String> beginSet = new HashSet<>();
+        Set<String> endSet = new HashSet<>();
+        Set<String> visited = new HashSet<>();
+
+        if (wordList.contains(beginWord))
+            visited.add(beginWord);
+
+        int len = 1;
+
+        beginSet.add(beginWord);
+        endSet.add(endWord);
+        while (!beginSet.isEmpty() && !endSet.isEmpty()) {
+            if (beginSet.size() > endSet.size()) {
+                Set<String> set = beginSet;
+                beginSet = endSet;
+                endSet = set;
+            }
+
+            Set<String> temp = new HashSet<>();
+            for (String word : beginSet) {
+
+                for (String other : endSet) {
+                    if (isNeighbor(word,other))
+                        return len + 1;
+                }
+                for (String other : wordList) {
+                    if (!visited.contains(other) && isNeighbor(word, other)) {
+                        temp.add(other);
+                        visited.add(other);
+                    }
+                }
+            }
+            beginSet = temp;
+            len++;
+        }
+        return 0;
     }
 }

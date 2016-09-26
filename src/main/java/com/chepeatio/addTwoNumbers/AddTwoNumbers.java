@@ -1,5 +1,7 @@
 package com.chepeatio.addTwoNumbers;
 
+import com.chepeatio.utils.ListNode;
+
 /**
  * Created by Che Peatio on 2015/11/8.
  */

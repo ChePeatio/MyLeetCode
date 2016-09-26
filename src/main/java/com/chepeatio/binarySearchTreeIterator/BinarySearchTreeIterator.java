@@ -1,5 +1,7 @@
 package com.chepeatio.binarySearchTreeIterator;
 
+import com.chepeatio.utils.TreeNode;
+
 import java.util.Stack;
 
 /**

@@ -1,10 +1,13 @@
 package com.chepeatio.sortList;
 
+import com.chepeatio.utils.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by Che Peatio on 2015/11/6.
+ * Edited by Che Peatio on 2016/05/02.
  */
 public class SortList {
     public ListNode sortList(ListNode head) {
@@ -13,7 +16,7 @@ public class SortList {
         }
 
         //Use two runners to break list into two halfs.
-        ListNode fast = head, slow = head, prev = null;
+        ListNode fast = head, slow = head, prev = head;
         while (fast!=null && fast.next!=null) {
             prev = slow;
             slow = slow.next;
@@ -81,9 +84,8 @@ public class SortList {
     public ListNode generateList(int[] array) {
         ListNode result = new ListNode(0);
         ListNode temp = result;
-        for (int anArray : array) {
-            ListNode ln = new ListNode(anArray);
-            temp.next = ln;
+        for (int value : array) {
+            temp.next = new ListNode(value);
             temp = temp.next;
         }
         return result.next;

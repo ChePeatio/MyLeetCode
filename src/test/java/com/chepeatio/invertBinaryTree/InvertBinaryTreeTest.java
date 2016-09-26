@@ -1,7 +1,8 @@
 package com.chepeatio.invertBinaryTree;
 
+import com.chepeatio.utils.TreeNode;
 import com.chepeatio.invertBinaryTree.InvertBinaryTree;
-import com.chepeatio.invertBinaryTree.TreeNode;
+
 import org.junit.Test;
 import org.junit.Before;
 

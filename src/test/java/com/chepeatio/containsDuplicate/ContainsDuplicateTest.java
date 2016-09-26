@@ -1,8 +1,7 @@
 package com.chepeatio.containsDuplicate;
 
 import com.chepeatio.containsDuplicate.ContainsDuplicate;
-import junit.framework.Assert;
-import org.junit.Before;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -20,9 +19,9 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class ContainsDuplicateTest { 
 
-    ContainsDuplicate test = new ContainsDuplicate();
-    int[] param;
-    boolean res;
+    private ContainsDuplicate test = new ContainsDuplicate();
+    private int[] param;
+    private boolean res;
 
     public ContainsDuplicateTest(int[] parameter, boolean result) {
         param = parameter;
@@ -59,6 +58,4 @@ public class ContainsDuplicateTest {
     public void testContainsDuplicate() throws Exception {
         Assert.assertEquals(res, test.containsDuplicate(param));
     }
-
-
 } 

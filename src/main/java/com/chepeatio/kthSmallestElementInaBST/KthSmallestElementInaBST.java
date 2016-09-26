@@ -1,5 +1,7 @@
 package com.chepeatio.kthSmallestElementInaBST;
 
+import com.chepeatio.utils.TreeNode;
+
 /**
  * Created and Finished by Che Peatio on 2015/11/26.
  */

@@ -1,7 +1,10 @@
 package com.chepeatio.symmetricTree;
 
+import com.chepeatio.utils.TreeNode;
+
 /**
  * Created by Che Peatio on 2015/12/14.
+ * Edited by Che Peatio on 2016/04/29.
  */
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
@@ -18,33 +21,5 @@ public class SymmetricTree {
         } else {
             return recursiveSolution(left.left, right.right, true) && recursiveSolution(left.right, right.left, true);
         }
-    }
-
-    public void testFunction1() {
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(2);
-        root.left.left = new TreeNode(3);
-        root.left.right = new TreeNode(4);
-        root.right.left = new TreeNode(4);
-        root.right.right = new TreeNode(3);
-        if (isSymmetric(root))
-            System.out.println("Good");
-        else
-            System.out.println("Wrong");
-    }
-
-    public void testFunction2() {
-        TreeNode root = new TreeNode(1);
-        root.left = new TreeNode(2);
-        root.right = new TreeNode(2);
-        root.left.left = new TreeNode(3);
-        //root.left.right = new TreeNode(4);
-        root.right.left = new TreeNode(3);
-        //root.right.right = new TreeNode(3);
-        if (isSymmetric(root))
-            System.out.println("Wrong");
-        else
-            System.out.println("Good");
     }
 }

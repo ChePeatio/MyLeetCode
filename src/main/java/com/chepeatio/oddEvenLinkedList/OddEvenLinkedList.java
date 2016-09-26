@@ -1,5 +1,7 @@
 package com.chepeatio.oddEvenLinkedList;
 
+import com.chepeatio.utils.ListNode;
+
 /**
  * Created by Che Peatio on 2016/1/18.
  */

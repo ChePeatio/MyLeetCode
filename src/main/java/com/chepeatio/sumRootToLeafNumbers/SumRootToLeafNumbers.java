@@ -1,7 +1,10 @@
 package com.chepeatio.sumRootToLeafNumbers;
 
+import com.chepeatio.utils.TreeNode;
+
 /**
  * Created by Che Peatio on 2015/12/29.
+ * Edited by Che Peatio on 2016/04/29.
  */
 public class SumRootToLeafNumbers {
     public int sumNumbers(TreeNode root) {

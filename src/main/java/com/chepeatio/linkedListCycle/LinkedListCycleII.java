@@ -1,5 +1,7 @@
 package com.chepeatio.linkedListCycle;
 
+import com.chepeatio.utils.ListNode;
+
 /**
  * Created by Che Peatio on 2015/12/27.
  */

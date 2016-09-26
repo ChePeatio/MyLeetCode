@@ -1,7 +1,7 @@
 package com.chepeatio.longestSubstringWithoutRepeatingCharacters;
 
 import com.chepeatio.longestSubstringWithoutRepeatingCharacters.LongestSubstringWithoutRepeatingCharacters;
-import junit.framework.Assert;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -14,14 +14,14 @@ import java.util.Collection;
  *
  * @author <Authors name>
  * @version 1.0
- * @since <pre>十一月 9, 2015</pre>
+ * @since <pre>十一锟斤拷 9, 2015</pre>
  */
 @RunWith(Parameterized.class)
 public class LongestSubstringWithoutRepeatingCharactersTest {
 
-    LongestSubstringWithoutRepeatingCharacters test = new LongestSubstringWithoutRepeatingCharacters();
-    String param;
-    int res;
+    private LongestSubstringWithoutRepeatingCharacters test = new LongestSubstringWithoutRepeatingCharacters();
+    private String param;
+    private int res;
 
     @Parameterized.Parameters
     public static Collection data() {

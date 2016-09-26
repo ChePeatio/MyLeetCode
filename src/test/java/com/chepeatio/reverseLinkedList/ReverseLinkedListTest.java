@@ -1,10 +1,9 @@
 package com.chepeatio.reverseLinkedList;
 
 import com.chepeatio.reverseLinkedList.ReverseLinkedList;
+import com.chepeatio.utils.ListNode;
 import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -14,16 +13,16 @@ import java.util.Collection;
 /**
  * ReverseLinkedList Tester.
  *
- * @author <Authors name>
+ * @author Che Peatio
  * @version 1.0
  * @since <pre>Ê®Ò»ÔÂ 1, 2015</pre>
  */
 @RunWith(Parameterized.class)
 public class ReverseLinkedListTest {
 
-    ReverseLinkedList test = new ReverseLinkedList();
-    int[] param;
-    int[] res;
+    private ReverseLinkedList test = new ReverseLinkedList();
+    private int[] param;
+    private int[] res;
 
     @Parameterized.Parameters
     public static Collection data() {
@@ -46,6 +45,7 @@ public class ReverseLinkedListTest {
      */
     @Test
     public void testReverseList() throws Exception {
-        Assert.assertArrayEquals(res, test.listnodeToArray(test.reverseList(test.generateList(param))));
+        Assert.assertEquals(true, ListNode.compareTwoLists(ListNode.generateList(res),
+                test.reverseList(ListNode.generateList(param))));
     }
 }

@@ -92,6 +92,6 @@ public class TestWordSearchII {
         long startTime = System.currentTimeMillis();
         assertEquals(result, test1.findWords(board, words));
         long endTime = System.currentTimeMillis();
-        System.out.println("ReferAnswer using time(" + (endTime-startTime) + ")");
+        System.out.println("ReferAnswer.java using time(" + (endTime-startTime) + ")");
     }
 }

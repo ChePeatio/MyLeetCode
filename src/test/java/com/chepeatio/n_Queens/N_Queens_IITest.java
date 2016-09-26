@@ -1,10 +1,8 @@
 package com.chepeatio.n_Queens;
 
 import com.chepeatio.n_Queens.N_Queens_II;
-import junit.framework.Assert;
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -16,14 +14,14 @@ import java.util.Collection;
  *
  * @author <Authors name>
  * @version 1.0
- * @since <pre>十一月 6, 2015</pre>
+ * @since <pre>十一锟斤拷 6, 2015</pre>
  */
 @RunWith(Parameterized.class)
 public class N_Queens_IITest {
 
-    N_Queens_II test = new N_Queens_II();
-    int param;
-    int res;
+    private N_Queens_II test = new N_Queens_II();
+    private int param;
+    private int res;
 
     @Parameterized.Parameters
     public static Collection data() {

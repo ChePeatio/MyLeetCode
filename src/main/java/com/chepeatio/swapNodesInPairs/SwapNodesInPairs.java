@@ -1,7 +1,10 @@
 package com.chepeatio.swapNodesInPairs;
 
+import com.chepeatio.utils.ListNode;
+
 /**
  * Created by Che Peatio on 2015/12/3.
+ * Edited by Che Peatio on 2016/05/02.
  */
 public class SwapNodesInPairs {
     public ListNode swapPairs(ListNode head) {

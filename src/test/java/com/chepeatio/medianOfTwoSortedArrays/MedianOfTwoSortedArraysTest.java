@@ -1,30 +1,30 @@
 package com.chepeatio.medianOfTwoSortedArrays;
 
 import com.chepeatio.medianOfTwoSortedArrays.MedianOfTwoSortedArrays;
-import junit.framework.Assert;
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import java.util.Arrays;
 import java.util.Collection;
 
+import static com.chepeatio.utils.Constant.DELTA;
+
 /**
  * MedianOfTwoSortedArrays Tester.
  *
- * @author <Authors name>
+ * @author Che Peatio
  * @version 1.0
  * @since <pre>Ê®Ò»ÔÂ 11, 2015</pre>
  */
 @RunWith(Parameterized.class)
 public class MedianOfTwoSortedArraysTest {
 
-    MedianOfTwoSortedArrays test = new MedianOfTwoSortedArrays();
-    int[] param1;
-    int[] param2;
-    double res;
+    private MedianOfTwoSortedArrays test = new MedianOfTwoSortedArrays();
+    private int[] param1;
+    private int[] param2;
+    private double res;
 
     @Parameterized.Parameters
     public static Collection data() {
@@ -44,7 +44,7 @@ public class MedianOfTwoSortedArraysTest {
      */
     @Test
     public void testFindMedianSortedArrays() throws Exception {
-        Assert.assertEquals(res, test.findMedianSortedArrays(param1, param2));
+        Assert.assertEquals(res, test.findMedianSortedArrays(param1, param2), DELTA);
     }
 
     /**
@@ -52,6 +52,6 @@ public class MedianOfTwoSortedArraysTest {
      */
     @Test
     public void testFindMedianSortedArraysLS() throws Exception {
-        Assert.assertEquals(res, test.findMedianSortedArraysLS(param1, param2));
+        Assert.assertEquals(res, test.findMedianSortedArraysLS(param1, param2), DELTA);
     }
 } 

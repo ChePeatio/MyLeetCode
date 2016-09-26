@@ -1,5 +1,7 @@
 package com.chepeatio.sameTree;
 
+import com.chepeatio.utils.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -12,7 +14,7 @@ public class SameTree {
         if (p==null && q==null)
             return true;
 
-        if (p==null&&q!=null || p!=null&&q==null)
+        if (p==null || q==null)
             return false;
 
         Queue<TreeNode> queueP = new LinkedList<>();
@@ -43,8 +45,6 @@ public class SameTree {
             } else {
                 if (tempQ.left != null) {
                     return false;
-                } else {
-                    // do nothing
                 }
             }
 
@@ -62,8 +62,6 @@ public class SameTree {
             } else {
                 if (tempQ.right != null) {
                     return false;
-                } else {
-                    // do nothing
                 }
             }
         }
@@ -73,8 +71,7 @@ public class SameTree {
     public boolean isSameTreeBS(TreeNode p, TreeNode q) {
         if (p==null && q==null)
             return true;
-
-        if (p==null || q==null)
+        else if (p==null || q==null)
             return false;
 
         return (p.val==q.val) && isSameTreeBS(p.left, q.left) && isSameTreeBS(p.right, q.right);

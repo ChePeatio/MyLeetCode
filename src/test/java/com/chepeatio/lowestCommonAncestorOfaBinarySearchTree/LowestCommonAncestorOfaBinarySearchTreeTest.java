@@ -1,15 +1,16 @@
 package com.chepeatio.lowestCommonAncestorOfaBinarySearchTree;
 
 import com.chepeatio.lowestCommonAncestorOfaBinarySearchTree.LowestCommonAncestorOfaBinarySearchTree;
-import com.chepeatio.lowestCommonAncestorOfaBinarySearchTree.TreeNode;
-import junit.framework.Assert;
+import com.chepeatio.utils.TreeNode;
+
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.Before;
 
 /**
  * LowestCommonAncestorOfaBinarySearchTree Tester.
  *
- * @author <Authors name>
+ * @author Che Peatio
  * @version 1.0
  * @since <pre>Ê®Ò»ÔÂ 2, 2015</pre>
  */
