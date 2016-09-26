@@ -1,4 +1,5 @@
 # ignore the 'out' directory
-/out/
+out/
 *.iml
-/.idea/
+.idea/
+.gradle

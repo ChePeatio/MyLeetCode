@@ -18,5 +18,9 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MyLeetCode_main" target="1.8" />
+      <module name="MyLeetCode_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
