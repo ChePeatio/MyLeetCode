@@ -1,3 +1,4 @@
+https://travis-ci.org/ChePeatio/MyLeetCode.svg?branch=master
 # MyLeetCode
 
 ----
