@@ -1,6 +1,5 @@
 package com.chepeatio.reverseLinkedList;
 
-import com.chepeatio.reverseLinkedList.ReverseLinkedList;
 import com.chepeatio.utils.ListNode;
 import org.junit.Assert;
 import org.junit.Test;

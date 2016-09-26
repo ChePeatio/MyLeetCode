@@ -1,8 +1,6 @@
 package com.chepeatio.singleNumber;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 
 /**
@@ -18,9 +16,10 @@ public class SingleNumberIII {
             else
                 bag.add(x);
         }
-        Object[] obj = bag.toArray();
-        result[0] = (int)obj[0];
-        result[1] = (int)obj[1];
+        int i=0;
+        for (int val : bag) {
+            result[i++] = val;
+        }
         return result;
     }
 

@@ -21,9 +21,9 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class SortListTest {
 
-    SortList test = new SortList();
-    int[] param;
-    int[] res;
+    private SortList test = new SortList();
+    private int[] param;
+    private int[] res;
 
     @Parameterized.Parameters
     public static Collection data() {

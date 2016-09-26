@@ -1,9 +1,6 @@
 package com.chepeatio.combinationSum;
 
-import com.chepeatio.combinationSum.CombinationSumIII;
 import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -44,7 +41,7 @@ public class CombinationSumIIITest {
      */
     @Test
     public void testCombinationSum3() throws Exception {
-        List<List<Integer>> lli = combinationSum3(paramK, paramN);
+        List<List<Integer>> lli = test.combinationSum3(paramK, paramN);
         for (List<Integer> li : lli) {
             for (int i : li)
                 System.out.print(i + " ");

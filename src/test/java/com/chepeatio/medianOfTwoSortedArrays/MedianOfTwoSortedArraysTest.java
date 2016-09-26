@@ -1,6 +1,5 @@
 package com.chepeatio.medianOfTwoSortedArrays;
 
-import com.chepeatio.medianOfTwoSortedArrays.MedianOfTwoSortedArrays;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -42,7 +41,7 @@ public class MedianOfTwoSortedArraysTest {
     /**
      * Method: findMedianSortedArrays(int[] nums1, int[] nums2)
      */
-    @Test
+    @Test (timeout = 1000)
     public void testFindMedianSortedArrays() throws Exception {
         Assert.assertEquals(res, test.findMedianSortedArrays(param1, param2), DELTA);
     }

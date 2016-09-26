@@ -19,9 +19,9 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class PowerOfTwoTest {
 
-    PowerOfTwo test = new PowerOfTwo();
-    int param;
-    boolean res;
+    private PowerOfTwo test = new PowerOfTwo();
+    private int param;
+    private boolean res;
 
     @Parameterized.Parameters
     public static Collection data() {

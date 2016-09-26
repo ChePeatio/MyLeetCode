@@ -1,15 +1,12 @@
 package com.chepeatio.rectangleArea;
 
-import com.chepeatio.rectangleArea.RectangleArea;
-
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import java.util.Arrays;
 import java.util.Collection;
-
-import static org.junit.Assert.assertEquals;
 
 /** 
 * RectangleArea Tester. 
@@ -21,9 +18,9 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class RectangleAreaTest { 
 
-    RectangleArea test = new RectangleArea();
-    int[] param;
-    int result;
+    private RectangleArea test = new RectangleArea();
+    private int[] param;
+    private int result;
 
     @Parameterized.Parameters
     public static Collection data() {
@@ -44,6 +41,6 @@ public class RectangleAreaTest {
     */
     @Test
     public void testComputeAreaBS() throws Exception {
-        assertEquals(result, computeAreaBS(param[0], param[1], param[2], param[3], param[4], param[5], param[6], param[7]));
+        Assert.assertEquals(result, test.computeAreaBS(param[0], param[1], param[2], param[3], param[4], param[5], param[6], param[7]));
     }
 } 

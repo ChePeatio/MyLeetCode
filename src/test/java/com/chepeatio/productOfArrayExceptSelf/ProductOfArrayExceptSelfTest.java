@@ -1,6 +1,5 @@
 package com.chepeatio.productOfArrayExceptSelf;
 
-import com.chepeatio.productOfArrayExceptSelf.ProductOfArrayExceptSelf;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,9 +18,9 @@ import java.util.Collection;
 @RunWith(Parameterized.class)
 public class ProductOfArrayExceptSelfTest {
 
-    ProductOfArrayExceptSelf test = new ProductOfArrayExceptSelf();
-    int[] param;
-    int[] res;
+    private ProductOfArrayExceptSelf test = new ProductOfArrayExceptSelf();
+    private int[] param;
+    private int[] res;
 
     @Parameterized.Parameters
     public static Collection data() {
