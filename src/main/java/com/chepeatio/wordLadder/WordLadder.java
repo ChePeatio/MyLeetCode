@@ -103,7 +103,9 @@ public class WordLadder {
                         remove.add(s);
                     }
                 }
-                remove.forEach(wordListCopy::remove);
+                for (String s : remove) {
+                    wordListCopy.remove(s);
+                }
                 remove.clear();
             }
             ArrayList<String> temp = curAL;
