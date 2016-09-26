@@ -6,9 +6,9 @@ import java.util.*;
  * Created by Che Peatio on 2015/12/22.
  */
 public class PeekingIterator implements Iterator<Integer> {
-    Iterator<Integer> iterator;
-    int temp;
-    boolean hasNext;
+    private Iterator<Integer> iterator;
+    private int temp;
+    private boolean hasNext;
     public PeekingIterator(Iterator<Integer> iterator) {
         // initialize any member here.
         this.iterator = iterator;
