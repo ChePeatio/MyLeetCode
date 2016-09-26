@@ -1,4 +1,4 @@
-https://travis-ci.org/ChePeatio/MyLeetCode.svg?branch=master
+[![Build Status](https://travis-ci.org/ChePeatio/MyLeetCode.svg?branch=master)](https://travis-ci.org/ChePeatio/MyLeetCode)
 # MyLeetCode
 
 ----
