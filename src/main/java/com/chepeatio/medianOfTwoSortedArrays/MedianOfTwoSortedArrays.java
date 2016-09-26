@@ -14,29 +14,46 @@ public class MedianOfTwoSortedArrays {
      * @return 两个数组的中位数
      */
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        if (nums1.length == 0) {
-            if (nums2.length == 0)
-                return 0;
-            else if (nums2.length % 2 == 1)
-                return nums2[nums2.length/2] * 1.0;
-            else
-                return (nums2[nums2.length/2] + nums2[nums2.length/2-1]) * 1.0 / 2;
-        } else {
-            if (nums2.length == 0) {
-                if (nums1.length % 2 == 1)
-                    return nums1[nums1.length/2] * 1.0;
-                else
-                    return (nums1[nums1.length/2] + nums1[nums1.length/2-1]) * 1.0 / 2;
+        int[] longer = nums1.length > nums2.length ? nums1 : nums2;
+        int[] shorter = longer == nums1 ? nums2 : nums1;
+        int m = longer.length;
+        int n = shorter.length;
+        if (n == 0) {
+            return 0.0;
+        }
+        int min = 0, max = m, half_len = (m+n+1)/2;
+        int max_of_left, min_of_right;
+        while (min <= max) {
+            int i = (min + max) / 2;
+            int j = half_len - i;
+            if (j > 0 && i < m && shorter[j-1]>longer[i]) {
+                min = i + 1;
+            } else if (i > 0 && j < n && longer[i-1]>shorter[j]) {
+                max = i - 1;
             } else {
-                int left1 = 0, right1 = nums1.length-1, left2 = 0, right2 = nums2.length-1;
-                int medium1 = (left1+right1) / 2, medium2 = (left2+right2) / 2;
-                while (left1!= medium1 && left2!=medium2) {
-                    medium1 = (left1 + right1) / 2;
+                if (i == 0) {
+                    max_of_left = shorter[j-1];
+                } else if (j == 0) {
+                    max_of_left = longer[i-1];
+                } else {
+                    max_of_left = Math.max(longer[i-1], shorter[j-1]);
                 }
 
-                return 0.0;
+                if ((m + n) % 2 == 1) {
+                    return max_of_left;
+                }
+
+                if (i == m) {
+                    min_of_right = shorter[j];
+                } else if (j == n) {
+                    min_of_right = longer[i];
+                } else {
+                    min_of_right = Math.min(longer[i], shorter[j]);
+                }
+                return (max_of_left + min_of_right) / 2.0;
             }
         }
+        return 0.0;
     }
 
     /**
